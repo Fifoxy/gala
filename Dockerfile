@@ -23,7 +23,8 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
         && npm cache clear
 
 RUN npm install -g gulp
-RUN npm install
-RUN gulp
 
 COPY . /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
+RUN npm install
+RUN gulp
