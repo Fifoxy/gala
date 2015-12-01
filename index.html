@@ -4,12 +4,11 @@
   <meta charset="utf-8">
   <title>Gala ISEN</title>
   <link rel="stylesheet" href="static/styles.css" />
+  <link rel="stylesheet" href="static/animate.min.css">
   <style type="text/css">
     .logo {
-      margin-top: 25px;
-      margin-bottom: 25px;
-      height: 400px;
       display: block;
+      padding-top:30px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -17,54 +16,158 @@
       background-color: white;
       color: black;
     }
+    .header_content{
+      background-color: rgba(0, 0, 0, 0.5);
+      height:1000px;
+    }
+    h2, h3{
+      font-family:"Segoe UI Light";
+      color:#FAB03D;
+    }
+    h1{
+      text-transform:uppercase;
+      font-family: "Segoe UI Light";
+    }
+    .box-icon {
+      background-color: #FAB03D;
+      border-radius: 50%;
+      display: table;
+      height: 100px;
+      margin: 0 auto;
+      width: 100px;
+      margin-top: -61px;
+      font-size: 3rem; }
+    .box {
+      border-radius: 3px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      padding: 10px 25px;
+      display: block;
+      margin-top: 60px; }
+    .box-icon span {
+      color: #fff;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+
+    .info h4 {
+      font-size: 26px;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .info p {
+      color: #000;
+      font-size: 16px;
+      padding-top: 10px;
+     }
+    .info a {
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s ease 0s; }
+    .info a:hover {
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+      transition: all 0.5s ease 0s; }
+    .button{
+      margin:auto;
+      background:#FAB03D;
+      border-radius: 10px;
+    }
+    .photo{
+      overflow:hidden;
+      -webkit-border-radius:50px;
+      -moz-border-radius:50px;
+      border-radius:50px;
+    }
   </style>
 </head>
-<body>
-  <br />
-  <div class="row">
-    <div class="columns medium-6">
+  <header id="gala_header">
+    <div class="header_content">
       <img class="logo" src="logo.svg"/>
-    </div>
-    <div class="columns medium-6">
-      <div class="flex-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vLTkENm-m1U" frameborder="0" allowfullscreen></iframe>
+
+      <br />
+      <div class="row">
+        <div class="columns small-12 text-center">
+          <br/><br/>
+          <h1 style="color:#fff"><b>Vendredi 26 Février 2016</b></h1>
+          <br/><br/><br/>
+          <a href="#gala" class="text-center"><img src="static/down.png"/></a>
+          <br/>
+        </div>
       </div>
     </div>
-  </div>
-  <br />
-  <div class="row">
-    <div class="columns small-12 text-center">
-      <p class="lead">Après plus de 50 ans d'absence insoutenable, un Gala ISEN aura lieu le 26 février. Cette soirée de prestige réunira les 5 promotions de l’ISEN Lille.</p>
-    </div>
-  </div>
-  <br />
+  </header>
   <div class="whitestripe">
     <br />
     <div class="row">
+
+      <!-- this adds Foundation Icon Fonts!! -->
+      <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+      <div class="row" id="gala">
+        <h2 class="text-center">Le Gala</h2>
+        <p class="text-center" style="color:#EEEEEE;">________________</p>
+
+        <div class="box">
+          <h3 class="text-center">Une nuit inoubliable</h3>
+          <p class="text-center">Après plus de 50 ans d'absence insoutenable, un Gala ISEN aura lieu le 26 février. Cette soirée de prestige réunira les 5 promotions de l’ISEN Lille.</p>
+        </div>
+        <br/>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <div class="flex-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vLTkENm-m1U" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="large-6 columns">
+            <div class="box">
+              <h3 class="text-center">Title</h3>
+              <p class="text-center">Infos.</p>
+            </div>
+
+            <div class="box">
+              <h3 class="text-center">Title</h3>
+              <p class="text-center">Infos.</p>
+            </div>
+          </div>
+        </div>
+
+      <br/>
+
+      <h2 class="text-center">Réservation</h2>
+      <p class="text-center" style="color:#EEEEEE;">________________</p>
+
       <div class="columns medium-6">
-        <div class="callout text-center">
-          <h4>Etudiants ISEN</h4>
-          <h4>20 €</h4>
+        <div class="box">
+          <h3 class="text-center">Etudiants ISEN</h3>
+          <h4 class="text-center">20 €</h4>
           <p>Commande à l'ISEN, directement au local BDE ou lors des permanences.</p>
-          <a class="button" href="https://www.facebook.com/gala.isen.2016/">Contact</a>
+          <p class="text-center"><a class="button" href="https://www.facebook.com/gala.isen.2016/">Contact</a></p>
         </div>
       </div>
       <div class="columns medium-6">
-        <div class="callout text-center">
-          <h4>Extérieurs</h4>
-          <h4>25 €</h4>
+        <div class="box">
+          <h3 class="text-center">Extérieurs</h3>
+          <h4 class="text-center">25 €</h4>
           <p>Commande ouverte aux extérieurs, aux alumnis et personnels ISEN.</p>
-          <a class="button" href="https://tickets.gala-isen.fr/events/gala2016">Commander</a>
+          <p class="text-center"><a class="button" href="https://tickets.gala-isen.fr/events/gala2016">Commander</a></p>
         </div>
+        <br/>
       </div>
     </div>
   </div>
   <br />
   <div class="row">
+
+    <h2 class="text-center">Accès</h2>
+    <p class="text-center" style="color:#EEEEEE;">________________</p>
+
     <div class="columns medium-6 medium-push-6 text-center">
-      <h3>Halls de la filature</h3>
-      <h4>70 Rue Félix Faure</h4>
-      <h4>59350 Saint André Lez Lille</h4>
+      <br/><br/><br/>
+      <div class="box">
+        <h3>Halls de la filature</h3>
+        <p>70 Rue Félix Faure</p>
+        <p>59350 Saint André Lez Lille</p>
+      </div>
     </div>
     <div class="columns medium-6 medium-pull-6">
       <iframe height="450" width="100%" frameborder="0" style="border:0"
@@ -74,37 +177,78 @@
   <div class="whitestripe">
     <br />
     <div class="row">
-      <div class="colmns small-12 text-center">
-        <h4>Contact</h4>
-        <a href="mailto:gala@isen-lille.fr"><h5>gala@isen-lille.fr</h5></a>
+      <h2 class="text-center">Contact</h2>
+      <p class="text-center" style="color:#EEEEEE;">________________</p>
+
+      <div class="columns medium-4">..</div>
+      <div class="columns medium-4">
+        <div class="box">
+          <div class="box-icon">
+            <span class="fi-mail"></span>
+          </div>
+          <br />
+          <a class="text-center" href="mailto:gala@isen-lille.fr"><h5>gala@isen-lille.fr</h5></a>
+        </div>
       </div>
+      <div class="columns medium-4"></div>
+
     </div>
     <br />
     <div class="row">
       <div class="columns medium-4">
-        <div class="callout text-center">
-          <h5>Camille Rizzolio</h5>
-          <h6>Responsable Gala</h6>
-          <a href="mailto:camille.rizzolio@isen-lille.fr"><h6>camille.rizzolio@isen-lille.fr</h6></a>
+        <div class="box">
+          <div class="box-icon">
+            <img class="photo" src="static/camille.jpg"/>
+          </div>
+
+          <h3 class="text-center">Camille Rizzolio</h3>
+          <h6 class="text-center">Responsable Gala</h6>
+          <a class="text-center" href="mailto:camille.rizzolio@isen-lille.fr"><h6>camille.rizzolio@isen-lille.fr</h6></a>
         </div>
       </div>
       <div class="columns medium-4">
-        <div class="callout text-center">
-          <h5>Luc Baudet</h5>
-          <h6>Responsable adjoint</h6>
-          <a href="mailto:luc.baudet@isen-lille.fr"><h6>luc.baudet@isen-lille.fr</h6></a>
+        <div class="box">
+          <div class="box-icon">
+            <img class="photo" src="static/luc.jpg"/>
+          </div>
+
+          <h3 class="text-center">Luc Baudet</h3>
+          <h6 class="text-center">Responsable adjoint</h6>
+          <a class="text-center" href="mailto:luc.baudet@isen-lille.fr"><h6>luc.baudet@isen-lille.fr</h6></a>
         </div>
       </div>
       <div class="columns medium-4">
-        <div class="callout text-center">
-          <h5>Hugo Caille</h5>
-          <h6>Responsable web et ventes en ligne</h6>
-          <a href="mailto:hugo.caille@isen-lille.fr"><h6>hugo.caille@isen-lille.fr</h6></a>
+        <div class="box">
+          <div class="box-icon">
+            <img class="photo" src="static/hugo.jpg"/>
+          </div>
+
+          <h3 class="text-center">Hugo Caille</h3>
+          <h6 class="text-center">Responsable web et ventes en ligne</h6>
+          <a class="text-center" href="mailto:hugo.caille@isen-lille.fr"><h6>hugo.caille@isen-lille.fr</h6></a>
         </div>
       </div>
     </div>
     <br />
     <br />
   </div>
+    </div>
+
+
+<script src="static/jquery-2.1.4.min.js"></script>
+<script>
+  // $('#yourElement').addClass('animated fadeOutDown');
+
+  $('a[href^="#"]').click(function(){
+    var the_id = $(this).attr("href");
+
+    $('html, body').animate({
+      scrollTop:$(the_id).offset().top
+    }, 'slow');
+    return false;
+  });
+</script>
 </body>
+
+
 </html>

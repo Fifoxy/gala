@@ -1,3 +1,13 @@
-$body-background: #333333;
-$body-font-color: #ffffff;
+$body-background: #fff;
+$body-font-color: #000;
+#gala_header
+{
+  background: url("gatsby.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+@font-face {
+  font-family: "Gatsby";
+  src: url('Park Lane NF.ttf');
+}
 @import "bower_components/foundation-sites/foundation-sites";
