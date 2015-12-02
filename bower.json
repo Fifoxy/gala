@@ -17,5 +17,16 @@
     "foundation-icon-fonts": "*",
     "foundation-sites": "~6.0.4",
     "jquery": "~2.1.4"
+  },
+  "overrides": {
+    "foundation-icon-fonts": {
+      "main": [
+        "foundation-icons.css",
+        "foundation-icons.eot",
+        "foundation-icons.svg",
+        "foundation-icons.ttf",
+        "foundation-icons.woff"
+      ]
+    }
   }
 }

@@ -23,5 +23,8 @@ $body-font-color: #000;
   src: url('Park Lane NF.ttf');
 }
 
+$fi-path: "/static/fonts/";
+
 @import "bower_components/foundation-sites/foundation-sites";
 @import "bower_components/animate.css/animate";
+@import "bower_components/foundation-icon-fonts/_foundation-icons";

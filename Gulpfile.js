@@ -13,11 +13,16 @@ gulp.task('bower', function() {
   return bower();
 });
 
-gulp.task('styles', ['bower'], function() {
+gulp.task('styles', ['bower', 'fonts'], function() {
   return gulp.src('styles.scss')
     .pipe(sass({includePaths: ['bower_components/foundation-sites/scss']}))
     .pipe(minifyCss())
     .pipe(gulp.dest('static/'));
+});
+
+gulp.task('fonts', ['bower'], function() {
+  return gulp.src(mainBowerFiles(['**/**.woff', '**/**.eot', '**/**.svg', '**/**.ttf']))
+    .pipe(gulp.dest('static/fonts'));
 });
 
 gulp.task('vendor', ['bower'], function() {
