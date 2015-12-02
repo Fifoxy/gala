@@ -1,3 +1,25 @@
-$body-background: #333333;
-$body-font-color: #ffffff;
+$body-background: #fff;
+$body-font-color: #000;
+#gala_header
+{
+  background: url("gatsby.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+#acces_div
+{
+  width:100%;
+  background: url("gatsby1.jpg") no-repeat center center;
+  background-size: cover;
+}
+#programmation_div
+{
+  width:100%;
+  background: url("gatbsyv.jpg") no-repeat center center;
+  background-size: cover;
+}
+@font-face {
+  font-family: "Gatsby";
+  src: url('Park Lane NF.ttf');
+}
 @import "bower_components/foundation-sites/foundation-sites";
