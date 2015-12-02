@@ -5,16 +5,13 @@
   <title>Gala ISEN</title>
   <link rel="stylesheet" href="static/styles.css" />
   <link rel="stylesheet" href="static/animate.min.css">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
   <style type="text/css">
     .logo {
       display: block;
       padding-top:30px;
       margin-left: auto;
       margin-right: auto;
-    }
-    .whitestripe {
-      background-color: white;
-      color: black;
     }
     .header_content{
       background-color: rgba(0, 0, 0, 0.5);
@@ -28,6 +25,9 @@
       text-transform:uppercase;
       font-family: "Segoe UI Light";
     }
+    h4{
+      font-family: "Segoe UI Light";
+    }
     .box-icon {
       background-color: #FAB03D;
       border-radius: 50%;
@@ -39,7 +39,7 @@
       font-size: 3rem; }
     .box {
       border-radius: 3px;
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      background-color:#F7F7F7;
       padding: 10px 25px;
       display: block;
       margin-top: 60px; }
@@ -70,6 +70,9 @@
       background:#FAB03D;
       border-radius: 10px;
     }
+    .button:hover{
+      background:#E28A05;
+    }
     .photo{
       overflow:hidden;
       -webkit-border-radius:50px;
@@ -78,6 +81,7 @@
     }
   </style>
 </head>
+
   <header id="gala_header">
     <div class="header_content">
       <img class="logo" src="logo.svg"/>
@@ -93,53 +97,83 @@
         </div>
       </div>
     </div>
-  </header>
-  <div class="whitestripe">
-    <br />
-    <div class="row">
+  </header><br />
 
-      <!-- this adds Foundation Icon Fonts!! -->
-      <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-
-      <div class="row" id="gala">
+  <div class="row" id="gala">
         <h2 class="text-center">Le Gala</h2>
-        <p class="text-center" style="color:#EEEEEE;">________________</p>
+        <p class="text-center" style="color:#F7F7F7;">________________</p>
 
         <div class="box">
           <h3 class="text-center">Une nuit inoubliable</h3>
-          <p class="text-center">Après plus de 50 ans d'absence insoutenable, un Gala ISEN aura lieu le 26 février. Cette soirée de prestige réunira les 5 promotions de l’ISEN Lille.</p>
-        </div>
-        <br/>
+          <p class="text-center">Après plus de 50 ans d'absence insoutenable, un Gala ISEN aura lieu le 26 février. Cette soirée de prestige réunira les 5 promotions de l’ISEN Lille.
+              Sur le thème de Gatsby le Magnifique, découvrez l'univers des années 20 autour de différents stands et activités.</p>
+          <br/>
+          <p class="text-center"><a class="button" href="#reservation">Réservez votre place</a></p>
+        </div><br/>
 
         <div class="row">
           <div class="large-6 columns">
             <div class="flex-video">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/vLTkENm-m1U" frameborder="0" allowfullscreen></iframe>
             </div>
-          </div>
+          </div><br/><br/>
 
           <div class="large-6 columns">
             <div class="box">
-              <h3 class="text-center">Title</h3>
-              <p class="text-center">Infos.</p>
-            </div>
 
-            <div class="box">
-              <h3 class="text-center">Title</h3>
-              <p class="text-center">Infos.</p>
+              <div class="box-icon">
+                <span class="fi-torsos-female-male"></span>
+              </div>
+
+              <h3 class="text-center">Tenue exigée</h3>
+
+              <div>
+                <h4 class="text-center">Homme</h4>
+                <p class="text-center">Costume, crave ou noeud papillon</p>
+              </div>
+              <div>
+                <h4 class="text-center">Femme</h4>
+                <p class="text-center">Robe de soirée, bijoux et paillettes</p>
+              </div>
             </div>
           </div>
-        </div>
+        </div><br/>
+  </div>
 
-      <br/>
+  <div class="row">
+          <h2 class="text-center">Les affiches</h2>
+          <p class="text-center" style="color:#F7F7F7;">________________</p>
+          <br/>
 
-      <h2 class="text-center">Réservation</h2>
-      <p class="text-center" style="color:#EEEEEE;">________________</p>
+          <div class="large-6 columns">
+            <img src="static/AfficheHomme.jpg"/>
+          </div>
 
+          <div class="large-6 columns">
+            <img src="static/afficheFemme.jpg"/>
+          </div>
+  </div><br/><br/>
+
+
+  <div id="programmation_div">
+    <h2 id="programmation" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Programmation</h2>
+    <p class="text-center" style="color: rgba(0, 0, 0, 0.5);">________________</p>
+
+    <div class="row">
+      <h2 class="text-center" style="background-color: rgba(0, 0, 0, 0.5);color: #fab03d;">A venir !</h2>
+    </div> <br />
+  </div><br/>
+
+
+  <div id="reservation_div">
+    <h2 id="reservation" class="text-center">Réservation</h2>
+    <p class="text-center" style="color:#F7F7F7;">________________</p>
+
+    <div class="row">
       <div class="columns medium-6">
         <div class="box">
           <h3 class="text-center">Etudiants ISEN</h3>
-          <h4 class="text-center">20 €</h4>
+          <h4 class="text-center" style="font-family:'Gatsby'">20 €</h4>
           <p>Commande à l'ISEN, directement au local BDE ou lors des permanences.</p>
           <p class="text-center"><a class="button" href="https://www.facebook.com/gala.isen.2016/">Contact</a></p>
         </div>
@@ -147,38 +181,39 @@
       <div class="columns medium-6">
         <div class="box">
           <h3 class="text-center">Extérieurs</h3>
-          <h4 class="text-center">25 €</h4>
+          <h4 class="text-center" style="font-family:'Gatsby'">25 €</h4>
           <p>Commande ouverte aux extérieurs, aux alumnis et personnels ISEN.</p>
           <p class="text-center"><a class="button" href="https://tickets.gala-isen.fr/events/gala2016">Commander</a></p>
         </div>
         <br/>
       </div>
-    </div>
+    </div> <br />
   </div>
-  <br />
-  <div class="row">
 
-    <h2 class="text-center">Accès</h2>
-    <p class="text-center" style="color:#EEEEEE;">________________</p>
-
-    <div class="columns medium-6 medium-push-6 text-center">
-      <br/><br/><br/>
-      <div class="box">
-        <h3>Halls de la filature</h3>
-        <p>70 Rue Félix Faure</p>
-        <p>59350 Saint André Lez Lille</p>
+  <div id="acces_div">
+    <h2 id="acces" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Accès</h2>
+    <p class="text-center" style="color: rgba(0, 0, 0, 0.5);">________________</p>
+    <br/>
+    <div class="row">
+      <div class="columns medium-6 medium-push-6 text-center">
+        <br/><br/><br/>
+        <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
+          <h3>Halls de la filature</h3>
+          <p style="color:white;">70 Rue Félix Faure</p>
+          <p style="color:white;">59350 Saint André Lez Lille</p>
+        </div>
+      </div>
+      <div class="columns medium-6 medium-pull-6">
+        <iframe height="450" width="100%" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="columns medium-6 medium-pull-6">
-      <iframe height="450" width="100%" frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="whitestripe">
-    <br />
-    <div class="row">
-      <h2 class="text-center">Contact</h2>
-      <p class="text-center" style="color:#EEEEEE;">________________</p>
+
+  </div> <br />
+
+  <div class="row">
+      <h2 id="contact" class="text-center">Contact</h2>
+      <p class="text-center" style="color:#F7F7F7;">________________</p>
 
       <div class="columns medium-4">..</div>
       <div class="columns medium-4">
@@ -191,11 +226,10 @@
         </div>
       </div>
       <div class="columns medium-4"></div>
-
-    </div>
     <br />
-    <div class="row">
-      <div class="columns medium-4">
+
+    <div class="row" id="contact_1">
+      <div class="columns medium-6">
         <div class="box">
           <div class="box-icon">
             <img class="photo" src="static/camille.jpg"/>
@@ -206,7 +240,7 @@
           <a class="text-center" href="mailto:camille.rizzolio@isen-lille.fr"><h6>camille.rizzolio@isen-lille.fr</h6></a>
         </div>
       </div>
-      <div class="columns medium-4">
+      <div class="columns medium-6">
         <div class="box">
           <div class="box-icon">
             <img class="photo" src="static/luc.jpg"/>
@@ -217,7 +251,23 @@
           <a class="text-center" href="mailto:luc.baudet@isen-lille.fr"><h6>luc.baudet@isen-lille.fr</h6></a>
         </div>
       </div>
-      <div class="columns medium-4">
+
+    </div>
+    <div class="row" id="contact_2">
+
+      <div class="columns medium-6">
+        <div class="box">
+          <div class="box-icon">
+            <img class="photo" src="static/louis.jpg"/>
+          </div>
+
+          <h3 class="text-center">Louis Carpentier</h3>
+          <h6 class="text-center">Responsable communication</h6>
+          <a class="text-center" href="mailto:louis.carpentier@isen-lille.fr"><h6>louis.carpentier@isen-lille.fr</h6></a>
+        </div>
+      </div>
+
+      <div class="columns medium-6">
         <div class="box">
           <div class="box-icon">
             <img class="photo" src="static/hugo.jpg"/>
@@ -228,16 +278,14 @@
           <a class="text-center" href="mailto:hugo.caille@isen-lille.fr"><h6>hugo.caille@isen-lille.fr</h6></a>
         </div>
       </div>
-    </div>
-    <br />
-    <br />
-  </div>
-    </div>
 
+    </div><br /><br />
+  </div>
 
 <script src="static/jquery-2.1.4.min.js"></script>
 <script>
-  // $('#yourElement').addClass('animated fadeOutDown');
+   $('#contact_1').addClass('animated fadeInDown');
+   $('#contact_2').addClass('animated fadeInDown');
 
   $('a[href^="#"]').click(function(){
     var the_id = $(this).attr("href");
