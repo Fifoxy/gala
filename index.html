@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gala ISEN</title>
   <link rel="stylesheet" href="static/styles.css" />
   <link rel="icon" type="image/ico" href="static/favicon.ico"/>
@@ -51,7 +52,7 @@
       font-size: 3rem; }
     .box {
       border-radius: 3px;
-      background-color:#F7F7F7;
+      background-color:#0D0D0D;
       padding: 10px 25px;
       display: block;
         margin-top: 60px;}
@@ -87,12 +88,12 @@
     }
     .photo{
       overflow:hidden;
-      -webkit-border-radius:50px;
-      -moz-border-radius:50px;
-      border-radius:50px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
     }
     .footer {
-        background-color: #F7F7F7;
+        background-color: #0D0D0D;
         padding: 2rem 4rem;
         text-align: center;
         color: #fff;
@@ -120,7 +121,7 @@
 
   <div class="row wow fadeInUp" id="gala">
         <h2 class="text-center">Le Gala</h2>
-        <p class="text-center" style="color:#F7F7F7;">________________</p>
+        <p class="text-center" style="color:#030303;">________________</p>
 
         <div class="box wow slideInUp">
           <h3 class="text-center">Une nuit inoubliable</h3>
@@ -138,7 +139,7 @@
             <div class="flex-video">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/vLTkENm-m1U" frameborder="0" allowfullscreen></iframe>
             </div>
-          </div><br/><br/><br/><br/>
+          </div><br/><br/>
 
           <div class="large-6 columns wow slideInRight">
             <div class="box">
@@ -164,7 +165,6 @@
 
   <div id="programmation_div" class="wow fadeInUp">
     <h2 id="programmation" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Programmation</h2>
-    <p class="text-center" style="color: rgba(0, 0, 0, 0.5);">________________</p>
 
     <div class="row wow slideInUp">
       <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
@@ -203,7 +203,7 @@
 
   <div id="reservation_div" class="wow fadeInUp">
     <h2 id="reservation" class="text-center">Réservation</h2>
-    <p class="text-center" style="color:#F7F7F7;">________________</p>
+    <p class="text-center" style="color:#030303;">________________</p>
 
     <div class="row">
       <div class="columns medium-6 wow slideInLeft">
@@ -228,7 +228,6 @@
 
   <div id="acces_div" class="wow fadeInUp">
     <h2 id="acces" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Accès</h2>
-    <p class="text-center" style="color: rgba(0, 0, 0, 0.5);">________________</p>
 
     <div class="row wow slideInUp">
       <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
@@ -292,21 +291,19 @@
 
     <div id="staff_div" class="wow fadeInUp">
         <h2 id="staff" class="text-center">Staff</h2>
-        <p class="text-center" style="color: #F7F7F7;">________________</p>
+        <p class="text-center" style="color:#030303;">________________</p>
 
         <div class="row">
-            <div class="small-6 large-2 columns" style="color:white;">.</div>
-            <div class="small-6 large-8 columns"><img src="static/staff/staff.jpg" style="box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)"/></div>
-            <div class="small-12 large-2 columns" style="color:white;">.</div>
+            <div class="large-6 large-centered columns"><img src="static/staff/staff.jpg" style="box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)"/></div>
         </div>
     </div>
 <br /><br/>
 
   <div class="row wow fadeInUp" id="contact_div">
       <h2 id="contact" class="text-center">Contact</h2>
-      <p class="text-center" style="color:#F7F7F7;">________________</p><br />
+      <p class="text-center" style="color:#030303;">________________</p><br />
 
-      <div class="columns medium-4" style="color:white;">.</div>
+      <div class="columns medium-4" style="color:black;">.</div>
       <div class="columns medium-4">
         <div class="box">
           <div class="box-icon">
@@ -332,8 +329,8 @@
         </div>
       </div>
       <div class="columns medium-6">
-        <div class="box">
-          <div class="box-icon wow slideInRight">
+        <div class="box wow slideInRight">
+          <div class="box-icon">
             <img class="photo" src="static/staff/luc.jpg"/>
           </div>
 
@@ -410,12 +407,6 @@
             easing:'easeInOutExpo'
         });
         return false;
-       /*var the_id = $(this).attr("href");
-
-        $('html, body').animate({
-          scrollTop:$(the_id).offset().top
-        }, 'slow');
-        return false;*/
     });
 </script>
 
