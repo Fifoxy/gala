@@ -39,19 +39,19 @@ gulp.task('images', function() {
     .pipe(imageResize({
       width: 100
     }))
-    .pipe(gulp.dest('static/staff/'));
+    .pipe(gulp.dest('static/img/staff/'));
 
   var staff = gulp.src('images/staff.jpg')
     .pipe(imageResize({
       width: 1000
     }))
-    .pipe(gulp.dest('static/staff/'));
+    .pipe(gulp.dest('static/img/staff/'));
 
   var covers = gulp.src('images/covers/**.jpg')
     .pipe(imageResize({
       width: 1500
     }))
-    .pipe(gulp.dest('static/'));
+    .pipe(gulp.dest('static/img/'));
 
   return merge(staffMembers, staff, covers);
 });
