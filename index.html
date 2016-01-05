@@ -42,17 +42,21 @@
         color:#FAB03D;
     }
     a:hover{
-        color:#E28A05;
+        color:#D28004;
     }
     .box-icon {
       background-color: #FAB03D;
       border-radius: 50%;
       display: table;
-      height: 100px;
+
       margin: 0 auto;
-      width: 100px;
+
       margin-top: -61px;
       font-size: 3rem; }
+    .icon_gala {
+        width:75px;
+        height:75px;
+    }
     .box {
       border-radius: 3px;
       background-color:#0D0D0D;
@@ -64,7 +68,9 @@
       display: table-cell;
       text-align: center;
       vertical-align: middle; }
-
+    .link:hover {
+        color:#D28004;
+    }
     .info h4 {
       font-size: 26px;
       letter-spacing: 2px;
@@ -97,6 +103,14 @@
       height:144.031px;
       border-radius:25px;
     }
+    .photo-2{
+        overflow:hidden;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        width:200px;
+        height:200px;
+        border-radius:25px;
+    }
     .footer {
         background-color: #0D0D0D;
         padding: 2rem 4rem;
@@ -126,7 +140,6 @@
 
   <div class="row wow fadeInUp" id="gala">
         <h2 class="text-center">Le Gala</h2>
-        <p class="text-center" style="color:#030303;">________________</p>
 
         <div class="box wow slideInUp">
           <h3 class="text-center">Une nuit inoubliable</h3>
@@ -136,7 +149,7 @@
                 Nous avons le plaisir de vous annoncer que le gala ISEN revient le <b>26 Février 2016</b> aux Halls de la Filature à Saint-André-Lez-Lille ! Sur le thème de Gatsby le Magnifique, venez découvrir, autour d'un cocktail dinatoire ainsi que d'une soirée, l'univers des années 20 grâce aux différents stands et activités qui vous seront proposés. La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion. Vous pouvez d'ores et déjà réserver votre place sur notre site !
             </p>
           <br/>
-          <p class="text-center"><a class="button" href="#reservation">Réservez votre place</a></p>
+          <p class="text-center"><a class="button" href="https://tickets.gala-isen.fr/event/gala2016" target="_blank">Réservez en ligne</a></p>
         </div><br/>
 
         <div class="row">
@@ -149,7 +162,7 @@
           <div class="large-6 columns wow slideInRight">
             <div class="box">
 
-              <div class="box-icon">
+              <div class="box-icon icon_gala">
                 <span class="fi-torsos-female-male"></span>
               </div>
 
@@ -161,12 +174,39 @@
               </div>
               <div>
                 <h4 class="text-center">Femme</h4>
-                <p class="text-center">Robe de soirée, bijoux et paillettes</p>
+                <p class="text-center">Robe de soirée, bijoux et plumes</p>
               </div>
             </div>
           </div>
         </div><br/>
+      <p class="text-center" style="color:#FAB03D;">__________________________</p>
   </div>
+
+    <div id="reservation_div" class="wow fadeInUp">
+        <h2 id="reservation" class="text-center">Réservation</h2>
+
+        <div class="row">
+            <div class="columns medium-6 wow slideInLeft">
+                <div class="box">
+                    <h3 class="text-center">Etudiants ISEN</h3>
+                    <h4 class="text-center" style="font-family:'Gatsby'">20 €</h4>
+                    <p class="text-center">Commande à l'ISEN (au local BDE ou lors des permanences).</p>
+                    <p class="text-center"><a class="button" target="_blank" href="https://www.facebook.com/gala.isen.2016/">Contact</a></p>
+                </div>
+            </div>
+            <div class="columns medium-6 wow slideInRight">
+                <div class="box">
+                    <h3 class="text-center">Autres</h3>
+                    <h4 class="text-center" style="font-family:'Gatsby'">25 €</h4>
+                    <p class="text-center">Commande ouverte aux extérieurs, aux alumnis et aux personnels ISEN.</p>
+                    <p class="text-center"><a class="button" target="_blank" href="https://tickets.gala-isen.fr/event/gala2016">Commander</a></p>
+                </div>
+                <br/>
+            </div>
+        </div> <br />
+    </div>
+
+
 
   <div id="programmation_div" class="wow fadeInUp">
     <h2 id="programmation" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Programmation</h2>
@@ -175,7 +215,7 @@
       <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
           <h3 class="text-center">Ouverture des portes</h3>
           <h2 class="text-center" style="color:white;">19h30</h2>
-          <a href="#acces_div"><h5 class="text-center">Accéder aux Halls de la Filature</h5></a>
+          <a href="#acces_div"><h5 class="text-center link">Accéder aux Halls de la Filature</h5></a>
       </div>
     </div>
 
@@ -196,47 +236,114 @@
         </div>
       </div>
 
-    </div>
-
-      <div class="row wow slideInDown">
-          <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
-              <h4 class="text-center">D'autres informations sont à venir !</h4>
-          </div><br />
-      </div>
+    </div><br/>
   </div><br/>
 
+    <div id="ambiances_div" class="wow fadeInUp">
+        <h2 id="ambiances" class="text-center">Les Ambiances</h2>
 
-  <div id="reservation_div" class="wow fadeInUp">
-    <h2 id="reservation" class="text-center">Réservation</h2>
-    <p class="text-center" style="color:#030303;">________________</p>
+        <div class="row small-up-1 medium-up-2 large-up-3">
+            <div class="column wow slideInLeft">
+                <div class="box">
+                    <h4 class="text-center">Jazz</h4>
+                    <p class="text-center" style="text-align:justify;">Immergez vous dans l'ambiance des années folles en vous laissant entraîner dans l'atmosphère de Gatsby le Magnifique et profitez de nos différents concerts pendant tout le cocktail et début de soirée.</p>
+                </div>
+            </div>
+            <div class="column wow slideInUp">
+                <div class="box">
+                    <h4 class="text-center">Casino</h4>
+                    <p class="text-center" style="text-align:justify;">Dans la grande salle, dans un cadre des plus grands casinos, découvrez l'univers passionnant des jeux de table! Blackjack ? Roulette ? Prenez place à l'une des 2 tables et tentez votre chance...</p>
+                </div>
+            </div>
+            <div class="column wow slideInRight">
+                <div class="box">
+                    <h4 class="text-center">Stand Cigares</h4>
+                    <p class="text-center" style="text-align:justify;">Que vous soyez amateur ou fin connaissaeur, laissez vous tenter par notre stand Cigares. « Une chose à ne jamais oublier en sortant de chez soi - un cigare. » B. Cosby</p>
+                </div>
+            </div>
 
-    <div class="row">
-      <div class="columns medium-6 wow slideInLeft">
-        <div class="box">
-          <h3 class="text-center">Etudiants ISEN</h3>
-          <h4 class="text-center" style="font-family:'Gatsby'">20 €</h4>
-          <p class="text-center">Commande à l'ISEN (au local BDE ou lors des permanences).</p>
-          <p class="text-center"><a class="button" target="_blank" href="https://www.facebook.com/gala.isen.2016/">Contact</a></p>
-        </div>
-      </div>
-      <div class="columns medium-6 wow slideInRight">
-        <div class="box">
-          <h3 class="text-center">Autres</h3>
-          <h4 class="text-center" style="font-family:'Gatsby'">25 €</h4>
-          <p class="text-center">Commande ouverte aux extérieurs, aux alumnis et aux personnels ISEN.</p>
-          <p class="text-center"><a class="button" target="_blank" href="https://tickets.gala-isen.fr/event/gala2016">Commander</a></p>
-        </div>
-        <br/>
-      </div>
-    </div> <br />
-  </div>
+            <div class="column wow slideInLeft">
+                <div class="box">
+                    <h4 class="text-center">Bar à Whiskys</h4>
+                    <p class="text-center" style="text-align:justify;">Le bar a Whisky vous accueillera pour un verre de vieux Whisky. Un panel de Whiskys vous sera proposé autour d'une ambiance décontractée. </p>
+                </div>
+            </div>
+            <div class="column wow slideInUp">
+                <div class="box">
+                    <h4 class="text-center">Barman Flair</h4>
+                    <p class="text-center" style="text-align:justify;">Pour le plaisir de vos yeux, un barman flair sera présent lors de notre soirée ! Vous pourrez déguster de délicieux cocktails réalisés sous vos yeux ébahis.</p>
+                </div>
+            </div>
+            <div class="column wow slideInRight">
+                <div class="box">
+                    <h4 class="text-center">Charleston</h4>
+                    <p class="text-center" style="text-align:justify;">Enflammez la piste de danse et découvrez les danses des années folles ! Grâce à nos différents musiciens, laissez-vous porter dans cet univers de folie !</p>
+                </div>
+            </div>
+        </div><br/>
+
+        <h4 class="text-center">Et bien d'autres surprises !</h4>
+        <p class="text-center" style="color:#FAB03D;">__________________________</p>
+    </div>
+
+
+    <div id="artistes_div" class="wow fadeInUp">
+        <h2 id="artistes" class="text-center">Artistes</h2>
+
+        <div class="row small-up-1 large-up-3" >
+            <div class="column wow slideInLeft">
+                <div class="box wow slideInLeft">
+                    <div class="box-icon">
+                        <img class="photo" src="static/img/pereira.jpg"/>
+                    </div>
+
+                    <a href="http://www.couleurswing.fr/Dialina-PEREIRA.html" target="_blank"><h3 class="text-center link">Dialina Pereira</h3></a>
+                    <h6 class="text-center">Chanteuse</h6>
+
+                        <param name="movie" value="dewplayer/audio-player/player.swf">
+                        <param name="FlashVars" value="bg=0xf8f8f8&amp;leftbg=0xeeeeee&amp;lefticon=0x666666&amp;rightbg=0xcccccc&amp;rightbghover=0x999999&amp;righticon=0x666666&amp;righticonhover=0xffffff&amp;text=0x666666&amp;slider=0x666666&amp;track=0xFFFFFF&amp;border=0x666666&amp;loader=0x9FFFB8&amp;loop=no&amp;playerID=audioplayer17&soundFile=dewplayer/mp3/its_so_quiet.mp3">
+                        <param name="quality" value="high">
+                        <param name="menu" value="false">
+                        <param name="wmode" value="transparent">
+                    </object>
+
+                </div>
+            </div>
+            <div class="column wow slideInUp">
+                <div class="box wow slideInRight">
+                    <div class="box-icon">
+                        <img class="photo-2" src="static/img/boat_people.jpg"/>
+                    </div>
+
+                    <a href="http://www.boatpeople-production.com/" target="_blank"><h3 class="text-center link">Boat People</h3></a>
+                    <h6 class="text-center">DJ</h6>
+                    <p class="text-center"><span class="fi-sound" style="color:#FAB03D;font-size:2.5rem;"></span></p>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143746150&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                </div>
+                <br/>
+            </div>
+            <div class="column wow slideInRight">
+                <div class="box wow slideInRight">
+                    <div class="box-icon">
+                        <img class="photo" src="static/img/matt_mez.jpg"/>
+                    </div>
+
+                    <a href="http://www.mattmez.com/" target="_blank"><h3 class="text-center link">Matt Mez</h3></a>
+                    <h6 class="text-center">Saxophoniste</h6>
+                    <p class="text-center"><span class="fi-sound" style="color:#FAB03D;font-size:2.5rem;"></span></p>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/9355748&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                </div>
+                <br/>
+            </div>
+        </div> <br />
+    </div>
 
   <div id="acces_div" class="wow fadeInUp">
     <h2 id="acces" style="background-color: rgba(0, 0, 0, 0.5);" class="text-center">Accès</h2>
 
     <div class="row wow slideInUp">
       <div style="background-color: rgba(0, 0, 0, 0.5);"class="box">
-        <h3 class="text-center">Halls de la filature</h3>
+        <a href="http://www.filature-lille.com/contacts-et-infos-pratiques/accessibilite/" target="_blank"><h3 class="text-center link">Halls de la filature</h3></a>
         <p style="color:white;" class="text-center">70 Rue Félix Faure</p>
         <p style="color:white;" class="text-center">59350 Saint-André-Lez-Lille</p>
       </div><br />
@@ -289,7 +396,7 @@
           <h4 class="text-center">Parking</h4>
           <p class="text-center" style="color:white;">Un parking sera à votre disposition à l'adresse suivante:</p>
           <p class="text-center" style="color:white;">70 Rue Félix Faure 59350 Saint André Lez Lille (Face à « Point P »)</p>
-        </div><br/>
+        </div>
       </div>
 
     </div>
@@ -297,27 +404,26 @@
 
 
     <div id="staff_div" class="wow fadeInUp">
-        <h2 id="staff" class="text-center">Staff</h2>
-        <p class="text-center" style="color:#030303;">________________</p>
+        <h2 id="staff" class="text-center">Staff</h2><br/>
 
         <div class="row">
             <div class="large-6 large-centered columns"><img src="static/img/staff/staff.jpg" style="box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)"/></div>
-        </div>
+        </div><br/>
+        <p class="text-center" style="color:#FAB03D;">__________________________</p>
     </div>
-<br /><br/>
+
 
   <div class="row wow fadeInUp" id="contact_div">
       <h2 id="contact" class="text-center">Contact</h2>
-      <p class="text-center" style="color:#030303;">________________</p><br />
 
       <div class="columns medium-4" style="color:black;">.</div>
       <div class="columns medium-4">
         <div class="box">
-          <div class="box-icon">
+          <div class="box-icon icon_gala">
             <span class="fi-mail"></span>
           </div>
           <br />
-          <a class="text-center" href="mailto:gala@isen-lille.fr"><h5>gala@isen-lille.fr</h5></a>
+          <a class="text-center" href="mailto:gala@isen-lille.fr"><h5 class="link">gala@isen-lille.fr</h5></a>
         </div><br /><br />
       </div>
       <div class="columns medium-4"></div>
@@ -378,7 +484,7 @@
   </div>
 
 <footer class="footer">
-    <div class="row full-width">
+    <div class="row full-width wow fadeIn">
         <div class="small-6 medium-3 large-2 columns">
           <br/><br/>
             <a href="http://www.isen.fr/" target="_blank"><img src="static/img/isen.png"/></a>
