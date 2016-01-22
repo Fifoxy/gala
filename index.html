@@ -51,6 +51,7 @@
         <div class="columns small-12 text-center wow fadeInUp">
           <br/><br/>
           <h1 style="color:#fff"><b>Vendredi 26 Février 2016</b></h1>
+            <h2 style="color:#fff"><span id="typing"></span></h2>
           <br/><br/><br/>
           <a href="#gala" class="text-center"><img src="static/img/down.png"/></a>
           <br/>
@@ -71,7 +72,8 @@
                 Nous avons le plaisir de vous annoncer que le gala ISEN revient le <b>26 Février 2016</b> aux Halls de la Filature à Saint-André-Lez-Lille ! Sur le thème de Gatsby le Magnifique, venez découvrir, autour d'un cocktail dinatoire ainsi que d'une soirée, l'univers des années 20 grâce aux différents stands et activités qui vous seront proposés. La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion. Vous pouvez d'ores et déjà réserver votre place sur notre site !
             </p>
           <br/>
-          <p class="text-center"><a class="button" href="https://tickets.gala-isen.fr/event/gala2016" target="_blank">Réservez en ligne</a></p>
+
+            <p class="text-center"><a class="button" href="https://tickets.gala-isen.fr/event/gala2016" target="_blank">Réservez en ligne</a></p>
         </div><br/>
 
         <div class="row">
@@ -321,6 +323,13 @@
         </div>
       </div>
 
+        <div class="large-6 columns wow slideInRight">
+            <div style="background-color: rgba(0, 0, 0, 0.5);margin-top:25px;"class="box">
+                <h4 class="text-center">Uber</h4>
+                <p class="a" style="color:white;text-align:justify;">Profitez d'une <b>réduction de 15€</b> sur votre course Uber durant toute la durée du gala grâce au code <b>MERCIUBER</b>. Attention, cette offre est réservée aux nouveaux utilisateurs d'Uber.</p>
+            </div>
+        </div>
+
     </div>
   </div> <br />
 
@@ -405,6 +414,37 @@
     </div><br /><br />
   </div>
 
+
+  <div id="partenaires_div" class="wow fadeInUp">
+      <h2 id="partenaires" class="text-center">Nos partenaires</h2>
+
+
+      <div class="row">
+
+          <div class="columns medium-6">
+              <div class="box wow slideInLeft">
+                  <h2 class="text-center"><a href="http://www.lecolonelmoutarde.com/" target="_blank">Le Colonel Moutarde</a></h2>
+
+                  <p class="text-center" style="text-align:justify;">Profitez d'une réduction de 15% pour tout achat en ligne ou directement en <a href="http://www.lecolonelmoutarde.com/fr/content/10-nos-boutiques" target="_blank">magasin</a> chez Le Colonel Moutarde avec le code <b>GALAISEN</b>.</p>
+
+                  <h4 class="text-center">Code promotion: <b>GALAISEN</b></h4>
+              </div>
+          </div>
+
+          <div class="columns medium-6">
+              <div class="box wow slideInRight">
+                  <h2 class="text-center"><a href="https://www.uber.com/fr/" target="_blank">Uber</a></h2>
+
+                  <p class="text-center" style="text-align:justify;">Profitez d'une réduction de 15€ sur votre course Uber durant toute la durée du gala. Attention, cette offre est réservée aux nouveaux utilisateurs d'Uber.</p>
+
+                  <h4 class="text-center">Code promotion: <b>MERCIUBER</b></h4>
+              </div>
+          </div>
+
+      </div><br /><br />
+  </div><br/>
+
+
 <footer class="footer">
     <div class="row full-width wow fadeIn">
         <div class="small-6 medium-3 large-2 columns">
@@ -442,6 +482,16 @@
             easing:'easeInOutExpo'
         });
         return false;
+    });
+
+    $(function () {
+
+        $("#typing").typed({
+            strings: ['19h30', 'Halls de la Filature', 'Réservez votre place !'],
+            loop: true,
+            backDelay: 2000
+        });
+
     });
 </script>
 
