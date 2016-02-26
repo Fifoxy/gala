@@ -17,7 +17,8 @@
     "foundation-icon-fonts": "*",
     "foundation-sites": "~6.0.4",
     "jquery": "~2.1.4",
-    "typed.js": "~1.1.1"
+    "typed.js": "~1.1.1",
+    "magnific-popup": "~1.1.0"
   },
   "overrides": {
     "foundation-icon-fonts": {

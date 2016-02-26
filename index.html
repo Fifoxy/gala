@@ -68,7 +68,7 @@
     <div class="row">
       <div class="box wow slideInUp">
         <h3 class="text-center">#galaISEN</h3>
-        <!-- CODE HUGO ICI !-->
+        <div id="cameo"></div>
         <p class="text-center">Partagez vos photos de la soirée sur Instagram grâce au hashtag #galaISEN.</p>
       </div>
 
@@ -509,6 +509,15 @@
         });
 
     });
+</script>
+
+<script type="text/javascript" src="http://cameo.gala-isen.fr/static/cameo.js"></script>
+<script type="text/javascript">
+    cameo(document.getElementById('cameo'), {
+      tag: 'galaisen',
+      cameo: "http://cameo.gala-isen.fr",
+      limit: 12
+    })
 </script>
 
 </body>
