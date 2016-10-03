@@ -9,7 +9,7 @@ var imageResize = require('gulp-image-resize');
 var merge = require('merge-stream');
 
 gulp.task('default', ['build']);
-gulp.task('build', ['styles', 'vendor', 'images']);
+gulp.task('build', ['styles', 'vendor']);
 
 gulp.task('bower', function() {
   return bower();
@@ -34,7 +34,7 @@ gulp.task('vendor', ['bower'], function() {
     .pipe(gulp.dest('static/'));
 });
 
-gulp.task('images', function() {
+/*gulp.task('images', function() {
   var staffMembers = gulp.src('images/staff/**.jpg')
     .pipe(imageResize({
       width: 100
@@ -54,4 +54,4 @@ gulp.task('images', function() {
     .pipe(gulp.dest('static/img/'));
 
   return merge(staffMembers, staff, covers);
-});
+});*/

@@ -1,26 +1,53 @@
-$body-background: #000;
-$body-font-color: #fff;
-#gala_header
-{
-  background: url("img/gatsby.jpg") no-repeat center center;
-  background-size: cover;
-  overflow: hidden;
+body {
+  background: url("img/galaisback.png") no-repeat center center !important;
+  background-size:cover !important;
 }
-#acces_div
-{
-  width:100%;
-  background: url("img/gatsby1.jpg") no-repeat center center;
-  background-size: cover;
+
+.c-hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
-#programmation_div
-{
-  width:100%;
-  background: url("img/fete.jpg") no-repeat center center;
-  background-size: cover;
+
+.c-hero-container__main {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
-@font-face {
-  font-family: "Gatsby";
-  src: url('Park Lane NF.ttf');
+
+.c-hero-container__social {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+
+  div+div {
+    margin-left: 10px;
+  }
+}
+
+.c-hero-container__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction: column;
 }
 
 $fi-path: "fonts";
