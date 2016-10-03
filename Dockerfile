@@ -11,7 +11,7 @@ RUN set -ex \
 ENV NODE_VERSION 0.12.7
 ENV NPM_VERSION 2.14.1
 
-RUN apt-get update && apt-get install -y curl git
+RUN apt-get update && apt-get install -y curl git graphicsmagick
 
 RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.gz" \
         && curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc" \
