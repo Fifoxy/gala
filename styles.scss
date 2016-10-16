@@ -1,23 +1,64 @@
-body {
-  background: url("img/galaisback.png") no-repeat center center !important;
+.header__gala {
+  background:  url("img/gala.png") no-repeat center center fixed !important;
   background-size:cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .c-hero-container {
+  margin-top:400px;
+  margin-bottom:300px;
   display: flex;
+  flex-direction: row;
+  height:116px;
+}
+
+.c-hero-container__nav
+{
+  display: flex;
+  background: rgba(0, 0, 0, 1);
+  width: 100px;
+  height:116px;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 100%;
 }
 
-.c-hero-container__main {
+.c-hero-container__logo {
+  display: flex;
   background: rgba(0, 0, 0, 0.8);
-  width: 100%;
+  width: 200px;
+  height:116px;
+  justify-content: center;
+  align-items: center;
 }
+
+.c-hero-container__info {
+  display: flex;
+  flex-direction : column;
+  background: rgba(0, 0, 0, 0.8);
+  width: 420px;
+  height:116px;
+  padding-top:15px;
+}
+
+.c-hero-container__book {
+  display: flex;
+  background-color:#DD0613;
+  width: 150px;
+  height:116px;
+  justify-content: center;
+  align-items: center;
+  margin-left:auto;
+}
+
+.c-hero-container__book:hover
+{
+  background-color:#AA040D;
+}
+
 
 .c-hero-container__social {
-  margin-top: 10px;
   display: flex;
   align-items: baseline;
 
@@ -49,6 +90,9 @@ body {
     -webkit-flex-direction: column; /* Safari */
     flex-direction: column;
 }
+
+
+
 
 $fi-path: "fonts";
 
