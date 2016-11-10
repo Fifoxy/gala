@@ -1,80 +1,63 @@
-
-.c-hero-container__info h2{
-    text-transform:uppercase;
-    color: #FFFFFF;
-    font-size: 1.714rem;
-    margin-bottom: 0;
-    line-height: 1.3em;
-    font-family: "Alfa Slab One";
+body{
+    color:#FFFFFF;
+    font-family:'Lato', Open Sans,sans-serif;
 }
 
-.c-hero-container__info h3{
-    text-transform:uppercase;
-    font-family: "Alfa Slab One";
-    color: #FFFFFF;
-    font-size: 1em;
-    margin-bottom: 0;
-    line-height: 1.3em;
+.social a, .c-hero-container__book a {
+    color:#FFFFFF;
 }
 
-.c-hero-container__info h4{
-    text-transform:uppercase;
-    font-family: "Alfa Slab One";
-    color: #DD0613;
-    font-size: 1.714em;
-    margin-bottom: 0;
-    line-height: 1.3em;
-}
-
-.c-hero-container__book h2
-{
-    text-transform:uppercase;
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-family: "Alfa Slab One";
-}
-
-a{
-  color:#FFFFFF;
-}
-a:hover{
-  color:#DD0613;
-}
 .button{
-  background:#DD0613;
-  border-radius:2px;
+    background:#E6D458;
+    border-radius:2px;
 }
 .button:hover, .button:focus{
-  background:#AA040D;
+    background:#AA040D;
 }
 .back
 {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 ul, li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 li {
-  float:left; /* IE*/
+    float:left; /* IE*/
     margin: 5px;
 }
 
 ul.social li a {
-  display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  color: #FFFFFF;
-  background-color: #00000000;
-  border-radius: 50%;
-  transition: all 0.3s ease-out;
-  text-align: center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,0);
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    text-align: center;
 }
 
 ul.social li a:hover {
-  background-color: #DD0613;
+    background-color: #E6D458;
+}
+
+a
+{
+    color:#E6D458;
+    transition: all 0.3s ease-out;
+}
+
+.topbar__gala__item a:hover
+{
+    color:#D9C120;
+}
+
+.topbar__gala
+{
+    background:#000000;
 }
