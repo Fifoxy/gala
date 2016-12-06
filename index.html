@@ -7,45 +7,203 @@
     <meta property="og:image" content="http://www.gala-isen.fr/static/img/logo_gala.png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="600" />
+    <link rel="icon" href="static/img/favicon.ico" />
+
+    <!-- CSS-->
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="static/styles.css" />
     <link rel="stylesheet" href="static/custom.css" />
-    <link rel="icon" href="static/img/favicon.ico" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/jquery.fullPage.css" />
+
+    <!-- JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="static/jquery.fullPage.min.js"></script>
 </head>
 
 <body>
-<div class="header__gala">
-    <div class="c-hero-container__social">
-        <ul class="social">
-            <li><a href="https://www.facebook.com/gala.isen.2017/" target="new"><i class="fa fa fa-facebook"> </i></a></li>
-            <li><a href="https://www.twitter.com/galaisen" target="new"><i class="fa fa fa-twitter"> </i></a></li>
-            <li><a href="https://www.instagram.com/galaisen/" target="new"><i class="fa fa fa-instagram"> </i></a></li>
-        </ul>
+    <div id="fullpage">
+
+    <div class="section header__gala">
+        <div class="c-hero-container">
+            <div class="c-hero-container__logo">
+                <div id="logo1"><img src="static/img/logoj.png"/></div>
+                <div id="logo2"><img src="static/img/logoj_g.png"/></div>
+            </div>
+
+            <div class="c-hero-container__info">
+                <h2>Halls de la Filature</h2>
+                <h3>Saint-André-Lez-Lille</h3>
+                <h4>03 Février 2017 | 20h30-4h</h4>
+            </div>
+
+           <div class="c-hero-container__book">
+                <h2 class="text-center">Réservations bientôt disponibles</h2>
+            </div>
+        </div>
+
+        <div class="c-hero-container__social">
+            <ul class="social">
+                <li><a href="https://www.facebook.com/gala.isen.2017/" target="new"><i class="fa fa fa-facebook"> </i></a></li>
+                <li><a href="https://www.twitter.com/galaisen" target="new"><i class="fa fa fa-twitter"> </i></a></li>
+                <li><a href="https://www.instagram.com/galaisen/" target="new"><i class="fa fa fa-instagram"> </i></a></li>
+            </ul>
+        </div>
     </div>
 
-    <div class="c-hero-container">
-        <div class="c-hero-container__logo">
-            <div id="logo1"><img src="static/img/logoj.png"/></div>
-            <div id="logo2"><img src="static/img/logoj_g.png"/></div>
+  <div class="section content__gala">
+      <div class="c-hero-container__desc">
+          <h2>Edition 2017</h2>
+
+          <p style="color:#E6D458;">______________________________</p>
+
+          <div class="c-hero-container__desc__general">
+              <p>Fondée en 1956, l'ISEN, Institut Supérieur de l'Electronique et du Numérique, forme chaque année des ingénieurs généralistes aux compétences multiples et reconnues par les entreprises françaises et internationales.
+                  Après une édition 2016 exceptionnelle, toute une équipe travaille d'arrache pied pour vous faire vivre une soirée qui s'annonce... explosive !
+                  Cette soirée de prestige réunira les 5 promotions actuelles de l’ISEN Lille, le personnel de l'école, les anciens étudiants ISEN mais également les partenaires et amis de l'école.</p>
+          </div>
+
+          <div class="c-hero-container__desc__gala">
+              <div class="c-hero-container__desc__gala__1">
+                  <img src="static/img/logo_gala_min.png"/>
+              </div>
+
+              <div class="c-hero-container__desc__gala__2">
+                  <br/>
+                  <br/>
+                  <br/>
+                  <p>L'édition 2017 vous propose de vous immerger le temps d'une soirée dans l'univers des agents secrets tels que James Bond. Elle se déroulera le 3 Février 2017 aux Halls de la Filature à Saint-André-Lez-Lille à partir de 20h30.
+                      Venez découvrir, autour d'un cocktail, d'un buffet ainsi que d'une soirée, l'univers de James Bond grâce aux différents stands et activités qui vous seront proposés.
+                      La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion.</p>
+
+                  <h2 class="text-center" style="margin:auto;">Tenue correcte exigée</h2>
+              </div>
+          </div>
+
+          <h2>Déroulement</h2>
+
+          <p style="color:#E6D458;">______________________________</p>
+
+          <table>
+              <tr>
+                  <td id="hours">20h30</td>
+                  <td>Ouverture des portes</td>
+              </tr>
+              <tr>
+                  <td id="hours">22h30</td>
+                  <td>Début de la soirée dansante</td>
+              </tr>
+              <tr>
+                  <td id="hours">04h00</td>
+                  <td>Fin du gala</td>
+              </tr>
+          </table>
+      </div>
+
+  </div>
+
+  <div class="section informations__gala">
+      <h2>007 vous attend...</h2>
+
+      <p style="color:#E6D458;">______________________________</p>
+
+      <p>Les activités et stands vous seront prochainement communiqués.</p>
+  </div>
+
+  <div class="section access__gala">
+      <h2>Le lieu</h2>
+
+      <p style="color:#E6D458;">______________________________</p>
+
+      <div class="access__gala_map">
+          <iframe height="450" width="100%" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
+      </div><br/>
+
+      <div class="access__gala_infos">
+          <div class="box">
+              <h2>Navettes</h2>
+              <h5>Aller</h5>
+              <p>Départ : Palais Rameau</p>
+              <ul>
+                  <li>20h00</li>
+                  <li>20h30</li>
+                  <li>21h00</li>
+                  <li>20h30</li>
+              </ul>
+              <h5>Retour</h5>
+              <p>Départ : Halls de la Filature</p>
+              <ul>
+                  <li>01h00</li>
+                  <li>02h00</li>
+                  <li>03h00</li>
+                  <li>04h00</li>
+              </ul>
+          </div>
+
+          <div class="box">
+              <h2>Parking</h2>
+
+              <p>Un parking sera à votre disposition à l'adresse suivante:</p>
+              <p>70 Rue Félix Faure 59350 Saint André Lez Lille (Face à « Point P »)</p>
+
+              <h2>Uber</h2>
+
+              <p>Une offre Uber sera disponible le soir du gala !</p>
+              <p>Informations à venir.</p>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="section footer__gala">
+      <h2>L'équipe</h2>
+
+      <p style="color:#E6D458;">______________________________</p>
+
+
+      <h2>Nos partenaires</h2>
+
+      <p style="color:#E6D458;">______________________________</p>
+  </div>
+
         </div>
 
-        <div class="c-hero-container__info">
-            <h2>Halls de la Filature</h2>
-            <h3>Saint-André-Lez-Lille</h3>
-            <h4>03 Février 2017</h4>
-        </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            animateAnchor: true,
 
-       <div class="c-hero-container__book">
-            <h2 class="text-center">Réservations bientôt disponibles</h2>
-        </div>
-    </div>
-</div>
+            //Scrolling
+            css3: true,
+            scrollingSpeed: 700,
+            fitToSection: true,
+            fitToSectionDelay: 1000,
+            scrollBar: false,
+            easing: 'easeInOutCubic',
+            easingcss3: 'ease',
+            loopBottom: false,
+            loopTop: false,
+
+            continuousVertical: false,
+            continuousHorizontal: false,
+            scrollHorizontally: false,
+            interlockedSlides: false,
+            dragAndMove: false,
+            offsetSections: false,
+            resetSliders: false,
+            scrollOverflow: false,
+            scrollOverflowOptions: null,
+            touchSensitivity: 15,
+            normalScrollElementTouchThreshold: 5,
+            bigSectionsDestination: null,
+
+        });
+    });
+</script>
+
 </body>
 
-<script  src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"/>
-<script>
-
-</script>
 </html>
