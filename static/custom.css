@@ -46,14 +46,35 @@ ul.social li a:hover {
     background-color: #E6D458;
 }
 
+.box-icon {
+    background-color: #E6D458;
+    border-radius: 50%;
+    display: table;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
 .box {
     border-radius: 3px;
     background-color:rgba(0,0,0,0.8);
     padding: 10px 25px;
-    display: block;
-    margin-right: 15px;
+    margin-right: 20px;
+    display:block;
+}
+.photo{
+    overflow:hidden;
+    -webkit-border-radius:45px;
+    -moz-border-radius:45px;
+    border-radius:45px;
+    width:100px;
+    height:100px;
 }
 
+.box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+}
 a
 {
     color:#E6D458;
