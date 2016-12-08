@@ -241,6 +241,12 @@
     padding:50px;
   }
 
+  .book__gala
+  {
+    background:  url("img/booking.png");
+    padding:50px;
+  }
+
   .access__gala
   {
     background:  url("img/gala.png");
@@ -296,7 +302,7 @@
     font-family: 'Lato', "Alfa Slab One", Open Sans,sans-serif;
   }
 
-  .content__gala h2, .informations__gala h2, .footer__gala h2, .contact__gala h2, .access__gala h2
+  .content__gala h2, .informations__gala h2, .footer__gala h2, .contact__gala h2, .access__gala h2, .book__gala h2
   {
     text-transform:uppercase;
     color: #E6D458;
