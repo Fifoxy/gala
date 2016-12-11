@@ -21,6 +21,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="static/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="static/jquery.easing.1.3.js"></script>
+
 </head>
 
 <body>
@@ -219,25 +221,21 @@
       </div>
   </div>
 
-<!---  <div class="section footer__gala">
-              <h2>Nos partenaires</h2>
-
-              <p style="color:#E6D458;">______________________________</p>
-  </div>-->
     </div>
 
 <script type="text/javascript">
     $(document).ready(function() {
         $('#fullpage').fullpage({
             animateAnchor: true,
+            anchors:['header', 'edition2017', 'informations', 'réservation', 'lieu', 'contact'],
 
             //Scrolling
             css3: true,
             scrollingSpeed: 700,
             fitToSection: true,
             fitToSectionDelay: 1000,
-            scrollBar: false,
-            easing: 'easeInOutCubic',
+            scrollBar: true,
+            easing: 'easeOutQuad',
             easingcss3: 'ease',
             loopBottom: false,
             loopTop: false,
