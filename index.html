@@ -19,7 +19,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="static/jquery.easing.1.3.js"></script>
-
+    <script type="text/javascript">
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+            analytics.load("AHGSHREd2NDCaSOxztbXhD28wT44gxDR");
+            analytics.page();
+        }}();
+    </script>
 </head>
 
 <body>
@@ -33,19 +38,19 @@
         </div>
 
         <div class="row c-hero-container">
-            <div class="small-24 large-1 columns c-hero-container__logo">
+            <div class="small-24 medium-2 large-1 columns c-hero-container__logo">
                 <img class="wow fadeInUp" src="static/img/logoj.png"/>
             </div>
 
-            <div class="small-24 large-3 columns c-hero-container__info">
+            <div class="small-24 medium-6 large-5 columns c-hero-container__info">
                 <h2 class="wow fadeInUp">Halls de la Filature</h2>
                 <h3 class="wow fadeInUp">Saint-André-Lez-Lille</h3>
                 <h4 class="wow fadeInUp">03 Février 2017 | 20h30-4h</h4>
             </div>
 
-            <div class="large-6 columns"></div>
+            <div class="medium-4 medium-2 large-5 columns"></div>
 
-           <div class="small-24 large-1 columns c-hero-container__book">
+           <div class="small-24 medium-2 large-1 columns c-hero-container__book">
                <h2 class="text-center"><a href="https://tickets.gala-isen.fr/event/gala-2017" target="_blank">Réserver</a></h2>
             </div>
         </div>
@@ -130,7 +135,7 @@
                   <li>Accès aux navettes</li>
                   <li>Deux coupes de champagne ou deux verres de Martini</li>
               </ul>
-              <p>L'accès au gala vous sera autorisé uniquement sur présentation de votre billet. Ce billet vous est envoyé par email suite à votre commande.</p>
+              <p>L'accès au gala vous sera autorisé uniquement sur présentation de votre billet. Ce billet est nominatif et vous est envoyé par email suite à votre commande.</p>
               <h4>Tarifs</h4>
 
               <div class="row">
@@ -231,9 +236,7 @@
                           <a class="text-center" href="mailto:julie.robillart@isen.yncrea.fr"><h6>Contacter</h6></a>
                       </div>
                   </div>
-              </div><br/>
 
-              <div class="row">
                   <div class="small-24 large-4 columns wow slideInRight">
                       <div class="box">
                           <div class="box-icon">
@@ -245,9 +248,7 @@
                           <a class="text-center" href="mailto:martin.braconnier@isen.yncrea.fr"><h6>Contacter</h6></a>
                       </div>
                   </div>
-              </div><br/>
 
-              <div class="row">
                   <div class="small-24 large-4 columns wow slideInLeft">
                       <div class="box">
                           <div class="box-icon">
@@ -259,20 +260,39 @@
                           <a class="text-center" href="mailto:sarah.kieffer@isen.yncrea.fr"><h6>Contacter</h6></a>
                       </div>
                   </div>
-              </div>
-
+              </div><br/>
           </div>
       </div>
 
-  </div>
+      <h2>Nos partenaires</h2>
 
-    </div>
+      <p style="color:#E6D458;">______________________________</p>
+
+      <div class="row">
+
+          <div class="small-24 large-4 columns wow slideInLeft">
+              <div class="box">
+                  <div class="box-icon">
+                      <img class="photo" src="static/img/cachotieres.png"/>
+                  </div>
+
+                  <h3 class="text-center">Les cachotières</h3>
+                  <h6 class="text-center">-10% sur la location de robes et tenues de soirée </h6>
+                  <a class="text-center" href="https://www.lescachotieres.com/"><h6>Site web</h6></a>
+              </div>
+          </div>
+
+
+      </div>
+
+  </div>
     <script src="static/wow.min.js"></script>
     <script>
         wow = new WOW(
             {
                 animateClass: 'animated',
-                offset:       200
+                mobile: false,
+                offset: 200
             }
         );
         wow.init();
