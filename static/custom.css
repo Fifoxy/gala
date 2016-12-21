@@ -8,26 +8,15 @@ body{
 }
 
 .button{
-    background:#E6D458;
+    background:#e6d458;
     border-radius:2px;
 }
 .button:hover, .button:focus{
-    background:#AA040D;
+    background:#D9C120;
 }
 .back
 {
     background-color: rgba(0,0,0,0.8);
-}
-
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-li {
-    float:left; /* IE*/
-    margin: 5px;
 }
 
 ul.social li a {
@@ -46,6 +35,17 @@ ul.social li a:hover {
     background-color: #E6D458;
 }
 
+.social ul, .social li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social li {
+    float:left; /* IE*/
+    margin: 5px;
+}
+
 .box-icon {
     background-color: #E6D458;
     border-radius: 50%;
@@ -58,7 +58,6 @@ ul.social li a:hover {
     border-radius: 3px;
     background-color:rgba(0,0,0,0.8);
     padding: 10px 25px;
-    margin-right: 20px;
     display:block;
 }
 .photo{
@@ -92,8 +91,7 @@ a
 }
 
 table, th, td {
-    background:black;
-    border: 0.01px solid black;
+    background-color:rgba(0, 0, 0, 0);
 }
 
 .box h5

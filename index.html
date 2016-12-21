@@ -15,37 +15,15 @@
     <link rel="stylesheet" href="static/styles.css" />
     <link rel="stylesheet" href="static/custom.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="static/jquery.fullPage.css" />
-
     <!-- JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="static/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="static/jquery.easing.1.3.js"></script>
 
 </head>
 
 <body>
-    <div id="fullpage">
-
-    <div class="section header__gala">
-        <div class="c-hero-container">
-            <div class="c-hero-container__logo">
-                <div id="logo1"><img src="static/img/logoj.png"/></div>
-                <div id="logo2"><img src="static/img/logoj_g.png"/></div>
-            </div>
-
-            <div class="c-hero-container__info">
-                <h2>Halls de la Filature</h2>
-                <h3>Saint-André-Lez-Lille</h3>
-                <h4>03 Février 2017 | 20h30-4h</h4>
-            </div>
-
-           <div class="c-hero-container__book">
-                <h2 class="text-center">Réservations bientôt disponibles</h2>
-            </div>
-        </div>
-
+    <header class="header__gala">
         <div class="c-hero-container__social">
             <ul class="social">
                 <li><a href="https://www.facebook.com/gala.isen.2017/" target="new"><i class="fa fa fa-facebook"> </i></a></li>
@@ -53,210 +31,240 @@
                 <li><a href="https://www.instagram.com/galaisen/" target="new"><i class="fa fa fa-instagram"> </i></a></li>
             </ul>
         </div>
-    </div>
 
-  <div class="section content__gala">
-      <div class="c-hero-container__desc">
+        <div class="row c-hero-container">
+            <div class="small-24 large-1 columns c-hero-container__logo">
+                <img class="wow fadeInUp" src="static/img/logoj.png"/>
+            </div>
+
+            <div class="small-24 large-3 columns c-hero-container__info">
+                <h2 class="wow fadeInUp">Halls de la Filature</h2>
+                <h3 class="wow fadeInUp">Saint-André-Lez-Lille</h3>
+                <h4 class="wow fadeInUp">03 Février 2017 | 20h30-4h</h4>
+            </div>
+
+            <div class="large-6 columns"></div>
+
+           <div class="small-24 large-1 columns c-hero-container__book">
+               <h2 class="text-center"><a href="https://tickets.gala-isen.fr/event/gala-2017" target="_blank">Réserver</a></h2>
+            </div>
+        </div>
+
+
+    </header>
+
+  <div class="content__gala">
+      <div class="row c-hero-container__desc">
           <h2>Edition 2017</h2>
 
           <p style="color:#E6D458;">______________________________</p>
 
-          <div class="c-hero-container__desc__general">
+          <div class="wow fadeInUp small-24 large-6 columns c-hero-container__desc__general">
               <p>Fondée en 1956, l'ISEN, Institut Supérieur de l'Electronique et du Numérique, forme chaque année des ingénieurs généralistes aux compétences multiples et reconnues par les entreprises françaises et internationales.
                   Après une édition 2016 exceptionnelle, toute une équipe travaille d'arrache pied pour vous faire vivre une soirée qui s'annonce... explosive !
                   Cette soirée de prestige réunira les 5 promotions actuelles de l’ISEN Lille, le personnel de l'école, les anciens étudiants ISEN mais également les partenaires et amis de l'école.</p>
           </div>
 
-          <div class="c-hero-container__desc__gala">
-              <div class="c-hero-container__desc__gala__1">
+          <div class="small-24 large-6 columns c-hero-container__desc__gala">
+              <div class="wow fadeInDown c-hero-container__desc__gala__1">
                   <img src="static/img/logo_gala_min.png"/>
               </div>
 
-              <div class="c-hero-container__desc__gala__2">
-                  <br/>
-                  <br/>
-                  <br/>
-                  <p>L'édition 2017 vous propose de vous immerger le temps d'une soirée dans l'univers des agents secrets tels que James Bond. Elle se déroulera le 3 Février 2017 aux Halls de la Filature à Saint-André-Lez-Lille à partir de 20h30.
-                      Venez découvrir, autour d'un cocktail, d'un buffet ainsi que d'une soirée, l'univers de James Bond grâce aux différents stands et activités qui vous seront proposés.
-                      La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion.</p>
-
-                  <h2 class="text-center" style="margin:auto;">Tenue correcte exigée</h2>
+              <div class="wow fadeInUp row c-hero-container__desc__gala__2">
+                  <div class="small-24 large-6 columns">
+                      <p>
+                          L'édition 2017 vous propose de vous immerger le temps d'une soirée dans l'univers des agents secrets tels que James Bond. Elle se déroulera le 3 Février 2017 aux Halls de la Filature à Saint-André-Lez-Lille à partir de 20h30
+                          pour le cocktail dinatoire et 22h30 pour la soirée.
+                      </p>
+                  </div>
+                  <div class="small-24 large-6 columns">
+                      <p>
+                          Venez découvrir, autour d'un cocktail, d'un buffet ainsi que d'une soirée, l'univers de James Bond grâce aux différents stands et activités qui vous seront proposés.
+                          La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion.
+                      </p>
+                  </div>
               </div>
+
+              <h2 class="wow pulse text-center" style="margin:auto;">Tenue correcte exigée</h2>
           </div>
-
-          <h2>Déroulement</h2>
-
-          <p style="color:#E6D458;">______________________________</p>
-
-          <table>
-              <tr>
-                  <td id="hours">20h30</td>
-                  <td>Ouverture des portes</td>
-              </tr>
-              <tr>
-                  <td id="hours">22h30</td>
-                  <td>Début de la soirée dansante</td>
-              </tr>
-              <tr>
-                  <td id="hours">04h00</td>
-                  <td>Fin du gala</td>
-              </tr>
-          </table>
       </div>
-
   </div>
 
-  <div class="section informations__gala">
+  <div class="informations__gala">
       <h2>007 vous attend...</h2>
 
       <p style="color:#E6D458;">______________________________</p>
 
-      <p>Les activités et stands vous seront prochainement communiqués.</p>
+      <div class="row">
+          <div class="wow fadeInUp small-24 large-6 columns">
+              <h2>20h30</h2>
+              <h5>Ouverture des portes</h5>
+              <h2>22h30</h2>
+              <h5>Début de la soirée dansante</h5>
+              <h2>04h00</h2>
+              <h5>Fin du gala</h5>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="wow fadeInUp small-24 large-6 columns">
+            <p>Les activités et stands vous seront prochainement communiqués.</p>
+        </div>
+      </div>
+
   </div>
 
-  <div class="section book__gala">
+  <div class="book__gala">
 
       <h2>Réservation</h2>
 
       <p style="color:#E6D458;">______________________________</p>
 
-            <p>Les réservations en ligne seront prochainement disponibles.</p>
-            <div>
-                <h4>Tarifs</h4>
-                <table>
-                    <tr>
-                        <td id="hours">Etudiants ISEN</td>
-                        <td>20€</td>
-                    </tr>
-                    <tr>
-                        <td  id="hours">Autres</td>
-                        <td>25€</td>
-                    </tr>
-                </table>
-            </div>
+      <div class="row">
 
+          <div class="wow fadeInUp box small-24 large-6 columns">
+
+              <p>Des permanences sont réalisées, dans le hall de l'ISEN, tous les mardis puis tous les jours à partir du 16 Janvier 2017. Le billet comprend:</p>
+              <ul style="list-style: circle;">
+                  <li>Accès au cocktail dînatoire ainsi qu'à la soirée</li>
+                  <li>Accès aux navettes</li>
+                  <li>Deux coupes de champagne ou deux verres de Martini</li>
+              </ul>
+              <p>L'accès au gala vous sera autorisé uniquement sur présentation de votre billet. Ce billet vous est envoyé par email suite à votre commande.</p>
+              <h4>Tarifs</h4>
+
+              <div class="row">
+                  <div class="columns small-24 medium-6 large-6 wow slideInLeft">
+                      <h2 class="text-center">Etudiants ISEN</h2>
+                      <h4 class="text-center">20 €</h4>
+                      <p class="text-center">Commande à l'ISEN.</p>
+                      <p class="text-center"><a class="button" target="_blank" href="https://www.facebook.com/gala.isen.2017/">Contact</a></p>
+                  </div>
+                  <div class="columns small-24 medium-6 large-6 wow slideInRight">
+                      <h2 class="text-center">Autres</h2>
+                      <h4 class="text-center">25 €</h4>
+                      <p class="text-center">Commande à l'ISEN ou en ligne.</p>
+                      <p class="text-center"><a class="button" target="_blank" href="https://tickets.gala-isen.fr/event/gala-2017">Commander</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
 
   </div>
 
-  <div class="section access__gala">
+  <div class="access__gala">
       <h2>Le lieu</h2>
 
       <p style="color:#E6D458;">______________________________</p>
 
-      <div class="access__gala_map">
-          <iframe height="450" width="100%" frameborder="0" style="border:0"
-                  src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
+      <div class="row">
+          <div class="wow fadeInUp small-24 large-12 columns">
+              <iframe height="450" width="100%" frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
+          </div>
       </div><br/>
 
-      <div class="access__gala_infos">
-          <div class="box">
+      <div class="row">
+          <div class="wow fadeInUp box small-24 large-5 columns">
               <h2>Navettes</h2>
-              <h5>Aller</h5>
-              <p>Départ : Palais Rameau</p>
-              <ul>
-                  <li>20h00</li>
-                  <li>20h30</li>
-                  <li>21h00</li>
-                  <li>20h30</li>
-              </ul>
-              <h5>Retour</h5>
-              <p>Départ : Halls de la Filature</p>
-              <ul>
-                  <li>01h00</li>
-                  <li>02h00</li>
-                  <li>03h00</li>
-                  <li>04h00</li>
-              </ul>
+              <p>Les navettes sont comprises dans le billet. Il vous sera demandé de choisir une navette lors de l'achat de votre place.</p>
+              <div class="row">
+                  <div class="small-24 large-6 columns">
+                      <h2 class="text-center">Aller</h2>
+                      <p>Départ : Palais Rameau</p>
+                      <ul style="list-style: circle;">
+                          <li>20h00</li>
+                          <li>20h30</li>
+                          <li>21h00</li>
+                          <li>20h30</li>
+                      </ul>
+                  </div>
+
+                  <div class="small-24 large-6 columns">
+                      <h2 class="text-center">Retour</h2>
+                      <p>Départ : Halls de la Filature</p>
+                      <ul style="list-style: circle;">
+                          <li>01h00</li>
+                          <li>02h00</li>
+                          <li>03h00</li>
+                          <li>04h00</li>
+                      </ul>
+                  </div>
+              </div>
           </div>
 
-          <div class="box">
+          <div class="wow fadeInUp box small-24 large-5 columns">
               <h2>Parking</h2>
 
               <p>Un parking sera à votre disposition à l'adresse suivante:</p>
               <p>70 Rue Félix Faure 59350 Saint André Lez Lille (Face à « Point P »)</p>
+              <br/>
 
               <h2>Uber</h2>
 
               <p>Une offre Uber sera disponible le soir du gala !</p>
               <p>Plus d'informations à venir...</p>
+              </div>
           </div>
       </div>
+
   </div>
 
 
-  <div class="section contact__gala">
+  <div class="contact__gala pure-g">
       <h2>Contact</h2>
 
       <p style="color:#E6D458;">______________________________</p>
 
-      <div class="box" style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px;">
-          <div class="box-icon">
-              <img class="photo" src="static/img/staff/julie.png"/>
-          </div>
+      <div class="row">
+          <div class="small-24 large-12 columns">
+              <div class="box" style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px;">
+                  <div class="box-icon">
+                      <img class="photo" src="static/img/staff/julie.png"/>
+                  </div>
 
-          <h3 class="text-center">Julie Robillart</h3>
-          <h6 class="text-center">Présidente</h6>
-          <a class="text-center" href="mailto:julie.robillart@isen.yncrea.fr"><h6>julie.robillart@isen.yncrea.fr</h6></a>
+                  <h3 class="text-center">Julie Robillart</h3>
+                  <h6 class="text-center">Présidente</h6>
+                  <a class="text-center" href="mailto:julie.robillart@isen.yncrea.fr"><h6>julie.robillart@isen.yncrea.fr</h6></a>
+              </div>
+
+              <div class="box" style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px;">
+                  <div class="box-icon">
+                      <img class="photo" src="static/img/staff/martin.png"/>
+                  </div>
+
+                  <h3 class="text-center">Martin Braconnier</h3>
+                  <h6 class="text-center">Vice Président</h6>
+                  <a class="text-center" href="mailto:martin.braconnier@isen.yncrea.fr"><h6>martin.braconnier@isen.yncrea.fr</h6></a>
+              </div>
+
+
+              <div class="box" style="width:400px;margin:auto;">
+                  <div class="box-icon">
+                      <img class="photo" src="static/img/staff/sarah.png"/>
+                  </div>
+
+                  <h3 class="text-center">Sarah Kieffer</h3>
+                  <h6 class="text-center">Trésorière</h6>
+                  <a class="text-center" href="mailto:sarah.kieffer@isen.yncrea.fr"><h6>sarah.kieffer@isen.yncrea.fr</h6></a>
+              </div>
+          </div>
       </div>
 
-      <div class="box" style="width:400px;margin-left:auto;margin-right:auto;margin-bottom:10px;">
-          <div class="box-icon">
-              <img class="photo" src="static/img/staff/martin.png"/>
-          </div>
-
-          <h3 class="text-center">Martin Braconnier</h3>
-          <h6 class="text-center">Vice Président</h6>
-          <a class="text-center" href="mailto:martin.braconnier@isen.yncrea.fr"><h6>martin.braconnier@isen.yncrea.fr</h6></a>
-      </div>
-
-
-      <div class="box" style="width:400px;margin:auto;">
-          <div class="box-icon">
-              <img class="photo" src="static/img/staff/sarah.png"/>
-          </div>
-
-          <h3 class="text-center">Sarah Kieffer</h3>
-          <h6 class="text-center">Trésorière</h6>
-          <a class="text-center" href="mailto:sarah.kieffer@isen.yncrea.fr"><h6>sarah.kieffer@isen.yncrea.fr</h6></a>
-      </div>
   </div>
 
     </div>
+    <script src="static/wow.min.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset:       200
+            }
+        );
+        wow.init();
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            animateAnchor: true,
-            anchors:['header', 'edition2017', 'informations', 'réservation', 'lieu', 'contact'],
-
-            //Scrolling
-            css3: true,
-            scrollingSpeed: 700,
-            fitToSection: true,
-            fitToSectionDelay: 1000,
-            scrollBar: true,
-            easing: 'easeOutQuad',
-            easingcss3: 'ease',
-            loopBottom: false,
-            loopTop: false,
-
-            continuousVertical: false,
-            continuousHorizontal: false,
-            scrollHorizontally: false,
-            interlockedSlides: false,
-            dragAndMove: false,
-            offsetSections: false,
-            resetSliders: false,
-            scrollOverflow: false,
-            scrollOverflowOptions: null,
-            touchSensitivity: 15,
-            normalScrollElementTouchThreshold: 5,
-            bigSectionsDestination: null,
-
-        });
-    });
-</script>
-
+    </script>
 </body>
 
 </html>
