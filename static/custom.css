@@ -127,3 +127,7 @@ table, th, td {
     text-transform: uppercase;
     font-family: "Lato", "Alfa Slab One", Open Sans,sans-serif;
 }
+
+.lineup a {
+    color:white;
+}
