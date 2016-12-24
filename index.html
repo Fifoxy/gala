@@ -4,422 +4,468 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gala ISEN Lille 2017</title>
-    <meta property="og:image" content="http://www.gala-isen.fr/static/img/logo_gala.png" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
-    <link rel="icon" href="static/img/favicon.ico" />
+    <meta property="og:image" content="http://www.gala-isen.fr/static/img/logo_gala.png"/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="600"/>
+    <link rel="icon" href="static/img/favicon.ico"/>
 
     <!-- CSS-->
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="static/styles.css" />
-    <link rel="stylesheet" href="static/custom.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="static/styles.css"/>
+    <link rel="stylesheet" href="static/custom.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <!-- JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="static/jquery.easing.1.3.js"></script>
     <script type="text/javascript">
-        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
-            analytics.load("AHGSHREd2NDCaSOxztbXhD28wT44gxDR");
-            analytics.page();
-        }}();
+        !function () {
+            var analytics = window.analytics = window.analytics || [];
+            if (!analytics.initialize)if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+                analytics.invoked = !0;
+                analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"];
+                analytics.factory = function (t) {
+                    return function () {
+                        var e = Array.prototype.slice.call(arguments);
+                        e.unshift(t);
+                        analytics.push(e);
+                        return analytics
+                    }
+                };
+                for (var t = 0; t < analytics.methods.length; t++) {
+                    var e = analytics.methods[t];
+                    analytics[e] = analytics.factory(e)
+                }
+                analytics.load = function (t) {
+                    var e = document.createElement("script");
+                    e.type = "text/javascript";
+                    e.async = !0;
+                    e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+                    var n = document.getElementsByTagName("script")[0];
+                    n.parentNode.insertBefore(e, n)
+                };
+                analytics.SNIPPET_VERSION = "4.0.0";
+                analytics.load("AHGSHREd2NDCaSOxztbXhD28wT44gxDR");
+                analytics.page();
+            }
+        }();
     </script>
 </head>
 
 <body>
-    <header class="header__gala">
-        <div class="c-hero-container__social">
-            <ul class="social">
-                <li><a href="https://www.facebook.com/gala.isen.2017/" target="new"><i class="fa fa fa-facebook"> </i></a></li>
-                <li><a href="https://www.twitter.com/galaisen" target="new"><i class="fa fa fa-twitter"> </i></a></li>
-                <li><a href="https://www.instagram.com/galaisen/" target="new"><i class="fa fa fa-instagram"> </i></a></li>
+<header class="header__gala">
+    <div class="c-hero-container__social">
+        <ul class="social">
+            <li><a href="https://www.facebook.com/gala.isen.2017/" target="new"><i class="fa fa fa-facebook"> </i></a>
+            </li>
+            <li><a href="https://www.twitter.com/galaisen" target="new"><i class="fa fa fa-twitter"> </i></a></li>
+            <li><a href="https://www.instagram.com/galaisen/" target="new"><i class="fa fa fa-instagram"> </i></a></li>
+        </ul>
+    </div>
+
+    <div class="row c-hero-container">
+        <div class="small-24 medium-2 large-1 columns c-hero-container__logo">
+            <img class="wow fadeInUp" src="static/img/logoj.png"/>
+        </div>
+
+        <div class="small-24 medium-6 large-5 columns c-hero-container__info">
+            <h2 class="wow fadeInUp">Halls de la Filature</h2>
+            <h3 class="wow fadeInUp">Saint-André-Lez-Lille</h3>
+            <h4 class="wow fadeInUp">03 Février 2017 | 20h30-4h</h4>
+        </div>
+
+        <div class="medium-4 medium-2 large-5 columns"></div>
+
+        <div class="small-24 medium-2 large-1 columns c-hero-container__book">
+            <h2 class="text-center"><a href="#book">Réserver</a></h2>
+        </div>
+    </div>
+
+
+</header>
+
+<div class="content__gala">
+    <div class="row c-hero-container__desc">
+        <h2>Edition 2017</h2>
+
+        <p style="color:#E6D458;">______________________________</p>
+
+        <div class="wow fadeInUp small-24 large-6 columns c-hero-container__desc__general">
+            <p>Fondée en 1956, l'ISEN, Institut Supérieur de l'Electronique et du Numérique, forme chaque année des
+                ingénieurs généralistes aux compétences multiples et reconnues par les entreprises françaises et
+                internationales.
+                Après une édition 2016 exceptionnelle, toute une équipe travaille d'arrache pied pour vous faire vivre
+                une soirée qui s'annonce... explosive !
+                Cette soirée de prestige réunira les 5 promotions actuelles de l’ISEN Lille, le personnel de l'école,
+                les anciens étudiants ISEN mais également les partenaires et amis de l'école.</p>
+        </div>
+
+        <div class="small-24 large-6 columns c-hero-container__desc__gala">
+            <div class="wow fadeInDown c-hero-container__desc__gala__1">
+                <img src="static/img/logo_gala_min.png"/>
+            </div>
+
+            <div class="wow fadeInUp row c-hero-container__desc__gala__2">
+                <div class="small-24 large-6 columns">
+                    <p>
+                        L'édition 2017 vous propose de vous immerger le temps d'une soirée dans l'univers des agents
+                        secrets tels que James Bond. Elle se déroulera le 3 Février 2017 aux Halls de la Filature à
+                        Saint-André-Lez-Lille à partir de 20h30
+                        pour le cocktail dinatoire et 22h30 pour la soirée.
+                    </p>
+                </div>
+                <div class="small-24 large-6 columns">
+                    <p>
+                        Venez découvrir, autour d'un cocktail, d'un buffet ainsi que d'une soirée, l'univers de James
+                        Bond grâce aux différents stands et activités qui vous seront proposés.
+                        La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande
+                        occasion.
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="wow pulse text-center" style="margin:auto;">Tenue correcte exigée</h2>
+        </div>
+    </div>
+</div>
+
+<div class="informations__gala">
+    <h2>007 vous attend...</h2>
+
+    <p style="color:#E6D458;">______________________________</p>
+
+    <div class="row">
+        <br/><br/>
+        <div class="large-3 small-0 columns"><br/></div>
+        <div class="large-6 small-24 columns wow fadeInUp">
+            <ul class="timeline" id="timeline">
+                <li class="li complete">
+                    <div class="timestamp">
+                        <h5 class="hour">20h30</h5>
+                    </div>
+                    <div class="status">
+                        <h4> Ouverture </h4>
+                    </div>
+                </li>
+                <li class="li complete">
+                    <div class="timestamp">
+                        <h5 class="hour">22h30</h5>
+                    </div>
+                    <div class="status">
+                        <h4>Soirée</h4>
+                    </div>
+                </li>
+                <li class="li complete">
+                    <div class="timestamp">
+                        <h5 class="hour">00h30</h5>
+                    </div>
+                    <div class="status">
+                        <h4> Power Hour </h4>
+                    </div>
+                </li>
+                <li class="li complete">
+                    <div class="timestamp">
+                        <h5 class="hour">04h00</h5>
+                    </div>
+                    <div class="status">
+                        <h4> Fin du gala </h4>
+                    </div>
+                </li>
             </ul>
         </div>
+        <div class="large-3 small-0 columns"></div>
+    </div>
+    <br/>
 
-        <div class="row c-hero-container">
-            <div class="small-24 medium-2 large-1 columns c-hero-container__logo">
-                <img class="wow fadeInUp" src="static/img/logoj.png"/>
-            </div>
+    <div class="row">
+        <div class="large-3 small-0 columns">
+            <br/>
+        </div>
 
-            <div class="small-24 medium-6 large-5 columns c-hero-container__info">
-                <h2 class="wow fadeInUp">Halls de la Filature</h2>
-                <h3 class="wow fadeInUp">Saint-André-Lez-Lille</h3>
-                <h4 class="wow fadeInUp">03 Février 2017 | 20h30-4h</h4>
-            </div>
-
-            <div class="medium-4 medium-2 large-5 columns"></div>
-
-           <div class="small-24 medium-2 large-1 columns c-hero-container__book">
-               <h2 class="text-center"><a href="#book">Réserver</a></h2>
+        <div class="large-6 small-24 columns wow fadeInUp">
+            <div class="videoGala">
+                <iframe width="560" height="349" src="https://www.youtube.com/embed/p8o5g8D4kJs"
+                        frameborder="0"></iframe>
             </div>
         </div>
 
+        <div class="large-3 small-0 columns">
+            <br/>
+        </div>
+    </div>
+</div>
 
-    </header>
 
-  <div class="content__gala">
-      <div class="row c-hero-container__desc">
-          <h2>Edition 2017</h2>
+<div class="lineup">
+    <h2>Line-up</h2>
 
-          <p style="color:#E6D458;">______________________________</p>
+    <p style="color:#E6D458;">______________________________</p>
 
-          <div class="wow fadeInUp small-24 large-6 columns c-hero-container__desc__general">
-              <p>Fondée en 1956, l'ISEN, Institut Supérieur de l'Electronique et du Numérique, forme chaque année des ingénieurs généralistes aux compétences multiples et reconnues par les entreprises françaises et internationales.
-                  Après une édition 2016 exceptionnelle, toute une équipe travaille d'arrache pied pour vous faire vivre une soirée qui s'annonce... explosive !
-                  Cette soirée de prestige réunira les 5 promotions actuelles de l’ISEN Lille, le personnel de l'école, les anciens étudiants ISEN mais également les partenaires et amis de l'école.</p>
-          </div>
+    <div class="row">
+        <div class="large-3 small-0 columns"><br/></div>
+        <div class="large-6 small-24 columns">
+            <div class="box">
+                <br/>
+                <div class="row">
+                    <div class="large-5 small-0 columns"><br/></div>
+                    <div class="large-2 small-24 columns">
+                        <img class="wow fadeInUp" src="static/img/logoj.png"/>
+                    </div>
+                    <div class="large-5 small-0 columns"><br/></div>
+                </div><br/>
 
-          <div class="small-24 large-6 columns c-hero-container__desc__gala">
-              <div class="wow fadeInDown c-hero-container__desc__gala__1">
-                  <img src="static/img/logo_gala_min.png"/>
-              </div>
+                <p class="text-center" style="color:#E6D458;">&bull;&bull;&bull;</p>
 
-              <div class="wow fadeInUp row c-hero-container__desc__gala__2">
-                  <div class="small-24 large-6 columns">
-                      <p>
-                          L'édition 2017 vous propose de vous immerger le temps d'une soirée dans l'univers des agents secrets tels que James Bond. Elle se déroulera le 3 Février 2017 aux Halls de la Filature à Saint-André-Lez-Lille à partir de 20h30
-                          pour le cocktail dinatoire et 22h30 pour la soirée.
-                      </p>
-                  </div>
-                  <div class="small-24 large-6 columns">
-                      <p>
-                          Venez découvrir, autour d'un cocktail, d'un buffet ainsi que d'une soirée, l'univers de James Bond grâce aux différents stands et activités qui vous seront proposés.
-                          La soirée est ouverte aux externes donc n'hésitez pas à venir accompagné-e pour cette grande occasion.
-                      </p>
-                  </div>
-              </div>
+                <div class="row">
+                    <h3 class="text-center">
+                        Synopsis <span style="color:#E6D458">&bull;</span> Thibault Gruez <span style="color:#E6D458">&bull;</span> 2CRO <span style="color:#E6D458">&bull;</span> SAPIA
+                    </h3>
 
-              <h2 class="wow pulse text-center" style="margin:auto;">Tenue correcte exigée</h2>
-          </div>
-      </div>
-  </div>
+                </div>
 
-  <div class="informations__gala">
-      <h2>007 vous attend...</h2>
+                <p class="text-center" style="color:#E6D458;">&bull;</p>
+                <p class="text-center" style="color:#E6D458;">&bull;</p>
 
-      <p style="color:#E6D458;">______________________________</p>
+                <div class="row">
+                    <h3 class="text-center">
+                        Full Monkey <span style="color:#E6D458">&bull;</span> David Briceno <span style="color:#E6D458">&bull;</span> Cheerleaders ISEN
+                    </h3>
+                </div>
 
-        <div class="row">
-            <br/><br/>
-            <div class="large-3 small-0 columns"><br/></div>
-            <div class="large-6 small-24 columns wow fadeInUp">
-                <ul class="timeline" id="timeline">
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <h5 class="hour">20h30</h5>
-                        </div>
-                        <div class="status">
-                            <h4> Ouverture </h4>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <h5 class="hour">22h30</h5>
-                        </div>
-                        <div class="status">
-                            <h4>Soirée</h4>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <h5 class="hour">00h30</h5>
-                        </div>
-                        <div class="status">
-                            <h4> Power Hour </h4>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <h5 class="hour">04h00</h5>
-                        </div>
-                        <div class="status">
-                            <h4> Fin du gala </h4>
-                        </div>
-                    </li>
-                </ul>
+                <p class="text-center" style="color:#E6D458;">&bull;</p>
+                <p class="text-center" style="color:#E6D458;">&bull;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;&bull;</p>
+
+                <div class="row">
+                    <div class="large-12 small-24 columns wow fadeInUp">
+                        <h2 class="text-center">Et bien d'autres surprises vous attendent !</h2>
+                    </div>
+                </div>
+
             </div>
-            <div class="large-3 small-0 columns"> </div>
-      </div><br/>
+        </div>
+        <div class="large-3 small-0 columns"><br/></div>
 
-      <div class="row">
-          <div class="large-3 small-0 columns">
-              <div class="row">
-                  <div class="large-12 small-24 columns">
-                      <div class="box">
-                          <h2 class="text-center">Full Monkey</h2>
-                          <p class="text-center" style="text-align:justify;">Le groupe Full Monkey sera présent tout au long du cocktail dînatoire ! Au programme : Jazz, Rock à 4 temps et ... !</p>
-                      </div>
-                  </div>
+    </div>
+</div>
 
-                  <div class="large-12 small-24 columns" style="margin-top:15px;">
-                      <div class="box">
-                          <h2 class="text-center">Synopsis</h2>
-                          <p class="text-center" style="text-align:justify;">Il n'y pas de bonne soirée sans DJ ! Nous avons, pour l'occasion, choisi de vous faire découvrir, en début de soirée, <a href="http://www.synopsis-music.com/" target="_blank">Synopsis</a> !</p>
-                          <iframe width="100%" height="150" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/203144144&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-                      </div>
-                  </div>
+<div class="book__gala" id="book">
 
-                  <div class="large-12 small-24 columns" style="margin-top:15px;">
-                      <div class="box">
-                          <h2 class="text-center">Power Hour</h2>
-                          <p class="text-center" >Soyez prêt(e)s ! </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="large-6 small-24 columns wow fadeInUp">
-              <div class="videoGala">
-                  <iframe width="560" height="349" src="https://www.youtube.com/embed/p8o5g8D4kJs" frameborder="0"></iframe>
-              </div>
-          </div>
-          <div class="large-3 small-0 columns">
-              <div class="row">
-                  <div class="large-12 small-24 columns">
-                      <div class="box">
-                          <div class="box-icon">
-                              <img class="photo" src="static/img/david.png"/>
-                          </div>
+    <h2>Réservation</h2>
 
-                          <h2 class="text-center">Magie</h2>
-                          <p class="text-center" style="text-align:justify;">Il vous a déjà bluffé lors du Zytho Gala ? David est de retour pour vous jouer ses meilleurs tours et vous en mettre plein la vue ! </p>
-                      </div>
-                  </div>
+    <p style="color:#E6D458;">______________________________</p>
 
-                  <div class="large-12 small-24 columns" style="margin-top:15px;">
-                      <div class="box">
-                          <h2 class="text-center">Cheerleaders ISEN</h2>
-                          <p class="text-center" style="text-align:justify;">Ils ont enflammé la piste de danse l'année dernière, les cheerleaders ISEN sont de retour pour l'édition 2017 ! </p>
-                      </div>
-                  </div>
+    <div class="row">
 
-                  <div class="large-12 small-24 columns" style="margin-top:15px;">
-                      <div class="box">
-                          <h2 class="text-center">Le Fourgon Espion</h2>
-                          <p class="text-center" style="text-align:justify;">Vous avez toujours rêvé de devenir espion.. ? Le fourgon espion sera à votre disposition pour immortaliser votre soirée !</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="wow fadeInUp box small-24 large-6 columns">
 
-      <div class="row">
-          <br/><br/>
-          <div class="large-3 small-0 columns"><br/></div>
-          <div class="large-6 small-24 columns wow fadeInUp">
-              <h2 class="text-center">Et bien d'autres surprises vous attendent !</h2>
-          </div>
-          <div class="large-3 small-0 columns"> </div>
-      </div>
+            <p>Des permanences sont réalisées, dans le hall de l'ISEN, tous les mardis puis tous les jours à partir du
+                16 Janvier 2017. Le billet comprend:</p>
+            <ul style="list-style: circle;">
+                <li>Accès au cocktail dînatoire ainsi qu'à la soirée</li>
+                <li>Accès aux navettes</li>
+                <li>Deux coupes de champagne ou deux verres de Martini</li>
+            </ul>
+            <p>L'accès au gala vous sera autorisé uniquement sur présentation de votre billet. Ce billet est nominatif
+                et vous est envoyé par email suite à votre commande.</p>
+            <h4>Tarifs</h4>
 
-  </div>
+            <div class="row">
+                <div class="columns small-24 medium-6 large-6 wow slideInLeft">
+                    <h2 class="text-center">Etudiants ISEN</h2>
+                    <h4 class="text-center">20 €</h4>
+                    <p class="text-center">Commande à l'ISEN.</p>
+                    <p class="text-center"><a class="button" target="_blank"
+                                              href="https://www.facebook.com/gala.isen.2017/">Contact</a></p>
+                </div>
+                <div class="columns small-24 medium-6 large-6 wow slideInRight">
+                    <h2 class="text-center">Autres</h2>
+                    <h4 class="text-center">25 €</h4>
+                    <p class="text-center">Commande à l'ISEN ou en ligne.</p>
+                    <p class="text-center"><a class="button" target="_blank"
+                                              href="https://tickets.gala-isen.fr/event/gala-2017">Commander</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <div class="book__gala" id="book">
+</div>
 
-      <h2>Réservation</h2>
+<div class="access__gala">
+    <h2>Le lieu</h2>
 
-      <p style="color:#E6D458;">______________________________</p>
+    <p style="color:#E6D458;">______________________________</p>
 
-      <div class="row">
+    <div class="row">
+        <div class="wow fadeInUp small-24 large-12 columns">
+            <iframe height="450" width="100%" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+    <br/>
 
-          <div class="wow fadeInUp box small-24 large-6 columns">
+    <div class="row">
+        <div class="wow fadeInUp box small-24 large-5 columns">
+            <h2>Navettes</h2>
+            <p>Les navettes sont comprises dans le billet. Il vous sera demandé de choisir une navette lors de l'achat
+                de votre place.</p>
+            <div class="row">
+                <div class="small-24 large-6 columns">
+                    <h2 class="text-center">Aller</h2>
+                    <p>Départ : Palais Rameau</p>
+                    <ul style="list-style: circle;">
+                        <li>20h00</li>
+                        <li>20h30</li>
+                        <li>21h00</li>
+                        <li>20h30</li>
+                    </ul>
+                </div>
 
-              <p>Des permanences sont réalisées, dans le hall de l'ISEN, tous les mardis puis tous les jours à partir du 16 Janvier 2017. Le billet comprend:</p>
-              <ul style="list-style: circle;">
-                  <li>Accès au cocktail dînatoire ainsi qu'à la soirée</li>
-                  <li>Accès aux navettes</li>
-                  <li>Deux coupes de champagne ou deux verres de Martini</li>
-              </ul>
-              <p>L'accès au gala vous sera autorisé uniquement sur présentation de votre billet. Ce billet est nominatif et vous est envoyé par email suite à votre commande.</p>
-              <h4>Tarifs</h4>
+                <div class="small-24 large-6 columns">
+                    <h2 class="text-center">Retour</h2>
+                    <p>Départ : Halls de la Filature</p>
+                    <ul style="list-style: circle;">
+                        <li>01h00</li>
+                        <li>02h00</li>
+                        <li>03h00</li>
+                        <li>04h00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-              <div class="row">
-                  <div class="columns small-24 medium-6 large-6 wow slideInLeft">
-                      <h2 class="text-center">Etudiants ISEN</h2>
-                      <h4 class="text-center">20 €</h4>
-                      <p class="text-center">Commande à l'ISEN.</p>
-                      <p class="text-center"><a class="button" target="_blank" href="https://www.facebook.com/gala.isen.2017/">Contact</a></p>
-                  </div>
-                  <div class="columns small-24 medium-6 large-6 wow slideInRight">
-                      <h2 class="text-center">Autres</h2>
-                      <h4 class="text-center">25 €</h4>
-                      <p class="text-center">Commande à l'ISEN ou en ligne.</p>
-                      <p class="text-center"><a class="button" target="_blank" href="https://tickets.gala-isen.fr/event/gala-2017">Commander</a></p>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="wow fadeInUp box small-24 large-5 columns">
+            <h2>Parking</h2>
 
-  </div>
+            <p>Un parking sera à votre disposition à l'adresse suivante:</p>
+            <p>70 Rue Félix Faure 59350 Saint André Lez Lille (Face à « Point P »)</p>
+            <br/>
 
-  <div class="access__gala">
-      <h2>Le lieu</h2>
+            <h2>Uber</h2>
 
-      <p style="color:#E6D458;">______________________________</p>
+            <p>Une offre Uber sera disponible le soir du gala !</p>
+            <p>Plus d'informations à venir...</p>
+        </div>
+    </div>
+</div>
 
-      <div class="row">
-          <div class="wow fadeInUp small-24 large-12 columns">
-              <iframe height="450" width="100%" frameborder="0" style="border:0"
-                      src="https://www.google.com/maps/embed/v1/place?q=70%20Rue%20F%C3%A9lix%20Faure%2059350%20Saint%20Andr%C3%A9%20Lez%20Lille&key=AIzaSyBH2zfxexKUT6pw8Bxbf8hU2KOv05MrZ8E" allowfullscreen></iframe>
-          </div>
-      </div><br/>
-
-      <div class="row">
-          <div class="wow fadeInUp box small-24 large-5 columns">
-              <h2>Navettes</h2>
-              <p>Les navettes sont comprises dans le billet. Il vous sera demandé de choisir une navette lors de l'achat de votre place.</p>
-              <div class="row">
-                  <div class="small-24 large-6 columns">
-                      <h2 class="text-center">Aller</h2>
-                      <p>Départ : Palais Rameau</p>
-                      <ul style="list-style: circle;">
-                          <li>20h00</li>
-                          <li>20h30</li>
-                          <li>21h00</li>
-                          <li>20h30</li>
-                      </ul>
-                  </div>
-
-                  <div class="small-24 large-6 columns">
-                      <h2 class="text-center">Retour</h2>
-                      <p>Départ : Halls de la Filature</p>
-                      <ul style="list-style: circle;">
-                          <li>01h00</li>
-                          <li>02h00</li>
-                          <li>03h00</li>
-                          <li>04h00</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-
-          <div class="wow fadeInUp box small-24 large-5 columns">
-              <h2>Parking</h2>
-
-              <p>Un parking sera à votre disposition à l'adresse suivante:</p>
-              <p>70 Rue Félix Faure 59350 Saint André Lez Lille (Face à « Point P »)</p>
-              <br/>
-
-              <h2>Uber</h2>
-
-              <p>Une offre Uber sera disponible le soir du gala !</p>
-              <p>Plus d'informations à venir...</p>
-              </div>
-          </div>
-      </div>
-
-  </div>
+</div>
 
 
-  <div class="contact__gala">
-      <h2>Contact</h2>
+<div class="contact__gala">
+    <h2>Contact</h2>
 
-      <p style="color:#E6D458;">______________________________</p>
+    <p style="color:#E6D458;">______________________________</p>
 
-      <div class="row">
-          <div class="small-24 large-12 columns">
+    <div class="row">
+        <div class="small-24 large-12 columns">
 
-              <div class="row">
-                  <div class="small-24 large-4 columns wow slideInUp">
-                      <div class="box">
-                          <div class="box-icon">
-                              <img class="photo" src="static/img/staff/julie.png"/>
-                          </div>
+            <div class="row">
+                <div class="small-24 large-4 columns wow slideInUp">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img class="photo" src="static/img/staff/julie.png"/>
+                        </div>
 
-                          <h3 class="text-center">Julie Robillart</h3>
-                          <h6 class="text-center">Présidente</h6>
-                          <a class="text-center" href="mailto:julie.robillart@isen.yncrea.fr"><h6>Contacter</h6></a>
-                      </div>
-                  </div>
+                        <h3 class="text-center">Julie Robillart</h3>
+                        <h6 class="text-center">Présidente</h6>
+                        <a class="text-center" href="mailto:julie.robillart@isen.yncrea.fr"><h6>Contacter</h6></a>
+                    </div>
+                </div>
 
-                  <div class="small-24 large-4 columns wow slideInDown">
-                      <div class="box">
-                          <div class="box-icon">
-                              <img class="photo" src="static/img/staff/martin.png"/>
-                          </div>
+                <div class="small-24 large-4 columns wow slideInDown">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img class="photo" src="static/img/staff/martin.png"/>
+                        </div>
 
-                          <h3 class="text-center">Martin Braconnier</h3>
-                          <h6 class="text-center">Vice Président</h6>
-                          <a class="text-center" href="mailto:martin.braconnier@isen.yncrea.fr"><h6>Contacter</h6></a>
-                      </div>
-                  </div>
+                        <h3 class="text-center">Martin Braconnier</h3>
+                        <h6 class="text-center">Vice Président</h6>
+                        <a class="text-center" href="mailto:martin.braconnier@isen.yncrea.fr"><h6>Contacter</h6></a>
+                    </div>
+                </div>
 
-                  <div class="small-24 large-4 columns wow slideInUp">
-                      <div class="box">
-                          <div class="box-icon">
-                              <img class="photo" src="static/img/staff/sarah.png"/>
-                          </div>
+                <div class="small-24 large-4 columns wow slideInUp">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img class="photo" src="static/img/staff/sarah.png"/>
+                        </div>
 
-                          <h3 class="text-center">Sarah Kieffer</h3>
-                          <h6 class="text-center">Trésorière</h6>
-                          <a class="text-center" href="mailto:sarah.kieffer@isen.yncrea.fr"><h6>Contacter</h6></a>
-                      </div>
-                  </div>
-              </div><br/>
-          </div>
-      </div>
+                        <h3 class="text-center">Sarah Kieffer</h3>
+                        <h6 class="text-center">Trésorière</h6>
+                        <a class="text-center" href="mailto:sarah.kieffer@isen.yncrea.fr"><h6>Contacter</h6></a>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
+    </div>
 
-      <h2>Nos partenaires</h2>
+    <h2>Nos partenaires</h2>
 
-      <p style="color:#E6D458;">______________________________</p>
+    <p style="color:#E6D458;">______________________________</p>
 
-      <div class="row wow slideInUp">
-          <div class="small-0 large-3 columns"><br/></div>
-          <div class="small-24 large-6 columns">
-                      <div class="box">
-                          <div class="box-icon">
-                              <img class="photo" src="static/img/cachotieres.png"/>
-                          </div>
-                          <h3 class="text-center">Les cachotières</h3>
-                          <h6 class="text-center">-10% sur la location de robes et tenues de soirée </h6>
-                          <a class="text-center" href="https://www.lescachotieres.com/" target="_blank"><h6>Site web</h6></a>
-                      </div>
-          </div>
-          <div class="small-0 large-3 columns"><br/></div>
-      </div><br/>
+    <div class="row wow slideInUp">
+        <div class="small-0 large-3 columns"><br/></div>
+        <div class="small-24 large-6 columns">
+            <div class="box">
+                <div class="box-icon">
+                    <img class="photo" src="static/img/cachotieres.png"/>
+                </div>
+                <h3 class="text-center">Les cachotières</h3>
+                <h6 class="text-center">-10% sur la location de robes et tenues de soirée </h6>
+                <a class="text-center" href="https://www.lescachotieres.com/" target="_blank"><h6>Site web</h6></a>
+            </div>
+        </div>
+        <div class="small-0 large-3 columns"><br/></div>
+    </div>
+    <br/>
 
-      <div class="row">
-          <div class="small-0 large-3 columns"><br/></div>
-          <div class="small-24 large-3 columns wow slideInLeft">
-              <div class="box">
-                  <h3 class="text-center">ISEN Lille</h3>
-                  <h6 class="text-center">Institut supérieur de l'Electronique et du Numérique</h6>
-                  <a class="text-center" href="https://isen-lille.fr" target="_blank"><h6>Site web</h6></a>
-              </div>
-          </div>
+    <div class="row">
+        <div class="small-0 large-3 columns"><br/></div>
+        <div class="small-24 large-3 columns wow slideInLeft">
+            <div class="box">
+                <h3 class="text-center">ISEN Lille</h3>
+                <h6 class="text-center">Institut supérieur de l'Electronique et du Numérique</h6>
+                <a class="text-center" href="https://isen-lille.fr" target="_blank"><h6>Site web</h6></a>
+            </div>
+        </div>
 
-          <div class="small-24 large-3 columns wow slideInRight">
-              <div class="box">
-                  <h3 class="text-center">AI ISEN</h3>
-                  <h6 class="text-center">Association des ingénieurs ISEN </h6>
-                  <a class="text-center" href="http://www.aiisen.org/" target="_blank"><h6>Site web</h6></a>
-              </div>
-          </div>
-          <div class="small-0 large-3 columns"><br/></div>
-      </div>
-  </div>
-    <script src="static/wow.min.js"></script>
-    <script src="static/jquery.scrollTo.min.js"></script>
-    <script>
-        wow = new WOW(
-            {
-                animateClass: 'animated',
-                mobile: false,
-                offset: 200
-            }
-        );
-        wow.init();
+        <div class="small-24 large-3 columns wow slideInRight">
+            <div class="box">
+                <h3 class="text-center">AI ISEN</h3>
+                <h6 class="text-center">Association des ingénieurs ISEN </h6>
+                <a class="text-center" href="http://www.aiisen.org/" target="_blank"><h6>Site web</h6></a>
+            </div>
+        </div>
+        <div class="small-0 large-3 columns"><br/></div>
+    </div>
+</div>
+<script src="static/wow.min.js"></script>
+<script src="static/jquery.scrollTo.min.js"></script>
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            mobile: false,
+            offset: 200
+        }
+    );
+    wow.init();
 
-        $('a[href^="#"]').click(function(){
-            jQuery.scrollTo( $(this).attr("href"), {
-                duration: 1000,
-                easing:'easeInOutExpo'
-            });
-            return false;
+    $('a[href^="#"]').click(function () {
+        jQuery.scrollTo($(this).attr("href"), {
+            duration: 1000,
+            easing: 'easeInOutExpo'
         });
+        return false;
+    });
 
-    </script>
+</script>
 </body>
 
 </html>

@@ -1,36 +1,5 @@
 $grid-row-width: "expand";
 
-@media (min-device-width: 320px) and (max-device-width: 700px)
-{
-  .timeline
-  {
-    list-style-type: none;
-    display: block;
-    .li
-    {
-      transition: all 200ms ease-in;
-      display: flex;
-      width: inherit;
-    }
-
-    .timestamp
-    {
-      width: 100px;
-    }
-
-    .status
-    {
-      &:before
-      {
-        left: -8%;
-        top: 30%;
-        transition: all 200ms ease-in;
-      }
-    }
-  }
-}
-
-
 @media screen and (max-width: 640px) {
 
   .c-hero-container {
@@ -48,6 +17,10 @@ $grid-row-width: "expand";
 
   .c-hero-container__logo {
     height:170px !important;
+  }
+
+  .timeline {
+    display: none !important;
   }
 }
 
@@ -77,6 +50,17 @@ $grid-row-width: "expand";
 .informations__gala
 {
   background:  url("img/waitingyou.png") no-repeat center center fixed !important;
+  background-size:cover !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  min-height:100%;
+  padding:50px;
+}
+
+.lineup
+{
+  background:  url("img/ourjb.png") no-repeat center center fixed !important;
   background-size:cover !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -248,7 +232,7 @@ $grid-row-width: "expand";
   font-family: 'Lato', "Alfa Slab One", Open Sans,sans-serif;
 }
 
-.content__gala h2, .informations__gala h2, .footer__gala h2, .contact__gala h2, .access__gala h2, .book__gala h2
+.content__gala h2, .informations__gala h2, .footer__gala h2, .contact__gala h2, .access__gala h2, .book__gala h2, .lineup h2
 {
   text-transform:uppercase;
   color: #E6D458;
