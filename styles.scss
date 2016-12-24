@@ -1,12 +1,34 @@
 $grid-row-width: "expand";
 
-.section{
-  background-size: cover;
-}
-.slide{
-  background-size: cover;
-}
+@media (min-device-width: 320px) and (max-device-width: 700px)
+{
+  .timeline
+  {
+    list-style-type: none;
+    display: block;
+    .li
+    {
+      transition: all 200ms ease-in;
+      display: flex;
+      width: inherit;
+    }
 
+    .timestamp
+    {
+      width: 100px;
+    }
+
+    .status
+    {
+      &:before
+      {
+        left: -8%;
+        top: 30%;
+        transition: all 200ms ease-in;
+      }
+    }
+  }
+}
 
 
 @media screen and (max-width: 640px) {
@@ -232,6 +254,75 @@ $grid-row-width: "expand";
   color: #E6D458;
   font-size: 1.5rem;
   font-family: "Lato", "Alfa Slab One", Open Sans,sans-serif;
+}
+
+.timeline
+{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.li
+{
+  transition: all 200ms ease-in;
+}
+
+.timestamp
+{
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+}
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #D6DCE0;
+  position: relative;
+  transition: all 200ms ease-in;
+  h4 {
+    font-weight: 600
+  }
+  &:before
+  {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -15px;
+  left: 42%;
+  transition: all 200ms ease-in;
+  }
+}
+.li.complete
+{
+  .status
+  {
+    border-top: 4px solid #E6D458;
+    &:before
+    {
+      background-color: #E6D458;
+      border: none;
+      transition: all 200ms ease-in;
+    }
+  }
+  h4
+  {
+    color: #E6D458;
+    padding-top:10px;
+    font-family: 'Titillium Web', sans serif;
+  }
+  h5
+  {
+    font-family: 'Titillium Web', sans serif;
+  }
 }
 
 $fi-path: "fonts";
